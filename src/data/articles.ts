@@ -21,7 +21,7 @@ export const articlesData: Article[] = [
     readTime: "4 min read",
     date: "12 Oct 2026",
     author: "Deep Nap Sleep Experts",
-    image: "https://images.unsplash.com/photo-n9r0S3zfoMc?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1536882240095-0379873feb4e?auto=format&fit=crop&q=80&w=800",
     content: `
 The most common complaint we hear at our Coimbatore unit isn't about back pain—it's about heat. Many customers come to us desperate to replace a mattress they bought just months ago because it feels like sleeping on a radiator. 
 
@@ -68,7 +68,7 @@ If you aren't ready to replace your mattress just yet, try these tips:
     readTime: "3 min read",
     date: "28 Sep 2026",
     author: "Deep Nap Sleep Experts",
-    image: "https://images.unsplash.com/photo-pWUyHVJgLhg?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&q=80&w=800",
     content: `
 In India, we love our carpenter-built beds. Teak wood frames, heavy storage boxes, and custom headboards are a staple of our homes. 
 
@@ -111,7 +111,7 @@ Once you have your dimensions, simply enter them into our Custom Size Builder, a
     readTime: "5 min read",
     date: "15 Sep 2026",
     author: "Deep Nap Sleep Experts",
-    image: "https://images.unsplash.com/photo-SLIFI67jv5k?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&q=80&w=800",
     content: `
 Walking into a mattress showroom today is overwhelming. You are bombarded with jargon: PU foam, HR foam, memory foam, rebonded foam, rubberised coir, and natural latex. 
 
@@ -153,7 +153,7 @@ If budget allows, **Natural Latex** is the winner. If you need something firmer 
     readTime: "3 min read",
     date: "02 Sep 2026",
     author: "Deep Nap Sleep Experts",
-    image: "https://images.unsplash.com/photo-9GwMIek9jnY?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1631679706909-1844bbd07221?auto=format&fit=crop&q=80&w=800",
     content: `
 "I want a medium mattress." 
 
@@ -196,7 +196,7 @@ Still unsure? Take our Mattress Finder Quiz to get a personalized recommendation
     readTime: "4 min read",
     date: "18 Aug 2026",
     author: "Deep Nap Sleep Experts",
-    image: "https://images.unsplash.com/photo-ABNgkiVCsoo?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&q=80&w=800",
     content: `
 A quality mattress is an investment. But in a humid, tropical climate, that investment is constantly under attack from moisture, dust mites, and mildew.
 

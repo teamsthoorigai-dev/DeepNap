@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { notFound } from "next/navigation";
 import Image from "next/image";
 import { products } from "@/data/products";
@@ -24,7 +24,7 @@ export default async function ProductDetailPage({
   return (
     <main className="w-full bg-surface-white min-h-screen pb-24">
       {/* SECTION 1 - GALLERY AND CONFIGURATOR */}
-      <section className="w-full bg-[#EFE5D7] pt-8 lg:pt-12 pb-12 lg:pb-24 px-gutter md:px-gutter-tablet lg:px-gutter-desktop border-b border-hairline">
+      <section className="w-full bg-surface-white pt-8 lg:pt-12 pb-12 lg:pb-24 px-gutter md:px-gutter-tablet lg:px-gutter-desktop border-b border-hairline">
         <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
           
           {/* LEFT - Gallery */}
@@ -64,7 +64,7 @@ export default async function ProductDetailPage({
       </section>
 
       {/* SECTION 2 - DELIVERY CHECK */}
-      <section className="w-full bg-[#EFE5D7] py-8 px-gutter md:px-gutter-tablet lg:px-gutter-desktop border-b border-hairline">
+      <section className="w-full bg-surface-white py-8 px-gutter md:px-gutter-tablet lg:px-gutter-desktop border-b border-hairline">
         <div className="max-w-[1280px] mx-auto flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div className="flex items-center gap-3">
             <span className="material-symbols-outlined text-primary text-[28px]">local_shipping</span>
@@ -92,7 +92,7 @@ export default async function ProductDetailPage({
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-4xl mx-auto">
-            <div className="bg-[#EFE5D7] aspect-square rounded-2xl flex items-center justify-center p-10 relative">
+            <div className="bg-surface-container-low aspect-square rounded-2xl flex items-center justify-center p-10 relative border border-hairline">
               {/* Dummy diagram representing layers */}
               <div className="w-full h-full border-2 border-primary border-dashed rounded-lg flex flex-col p-4 gap-4">
                 <div className="h-1/3 bg-surface-white border border-primary flex items-center justify-center text-primary font-bold rounded">

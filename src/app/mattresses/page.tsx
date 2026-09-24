@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -89,7 +89,7 @@ export default function MattressesPage() {
       {/* Grid */}
       <div className="max-w-[1280px] mx-auto px-gutter md:px-gutter-tablet lg:px-gutter-desktop py-8 md:py-10">
         {filteredProducts.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 lg:gap-8">
             {filteredProducts.map((product) => {
               const isSelected = compareSlugs.includes(product.slug);
               
@@ -124,33 +124,43 @@ export default function MattressesPage() {
                     />
                   </div>
 
-                  <div className="p-6 flex flex-col flex-grow">
+                  <div className="p-5 flex flex-col flex-grow">
                     <h3 className="font-title-card text-title-card text-primary mb-1">{product.name}</h3>
-                    <p className="font-body-regular text-body-regular text-slate text-sm line-clamp-1 mb-4">{product.description}</p>
+                    <p className="font-body-regular text-body-regular text-slate text-sm line-clamp-1 mb-3">{product.description}</p>
                     
-                    <div className="w-full h-px bg-hairline mb-4"></div>
-                    
-                    <div className="flex items-center justify-between mb-4">
-                      <div className="font-caption text-caption text-slate uppercase tracking-wider">Firmness</div>
-                      <div className="flex items-center gap-2">
-                        <div className="w-16 h-1.5 bg-surface-container rounded-full overflow-hidden">
-                          <div 
-                            className="h-full bg-primary rounded-full" 
-                            style={{ width: `${(product.firmness / 10) * 100}%` }}
-                          ></div>
-                        </div>
-                        <span className="font-label-nav text-label-nav font-bold text-primary">{product.firmness}/10</span>
-                      </div>
-                    </div>
+                    <div className="w-full h-px bg-hairline mb-3"></div>
 
-                    <div className="grid grid-cols-2 gap-4 mb-6">
+                    <div className="grid grid-cols-2 gap-y-4 gap-x-3 mb-4">
+                      {/* Top-Left: Rating */}
+                      <div>
+                        <div className="font-caption text-caption text-slate uppercase tracking-wider mb-1">Rating</div>
+                        <div className="flex items-center gap-1">
+                          <span className="material-symbols-outlined text-[16px] text-[#DCA544]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+                          <span className="font-label-nav text-label-nav font-bold text-primary text-[12px] md:text-sm">4.8/5 <span className="font-normal text-xs text-slate">(120+)</span></span>
+                        </div>
+                      </div>
+                      {/* Top-Right: Firmness */}
+                      <div>
+                        <div className="font-caption text-caption text-slate uppercase tracking-wider mb-1">Firmness</div>
+                        <div className="flex items-center gap-1">
+                          <div className="w-8 h-1.5 bg-surface-container rounded-full overflow-hidden shrink-0">
+                            <div 
+                              className="h-full bg-primary rounded-full" 
+                              style={{ width: `${(product.firmness / 10) * 100}%` }}
+                            ></div>
+                          </div>
+                          <span className="font-label-nav text-label-nav font-bold text-primary text-[12px] whitespace-nowrap">{product.firmness}/10</span>
+                        </div>
+                      </div>
+                      {/* Bottom-Left: Thickness */}
                       <div>
                         <div className="font-caption text-caption text-slate uppercase tracking-wider mb-1">Thickness</div>
-                        <div className="font-label-nav text-label-nav font-semibold text-primary">{product.thicknesses}</div>
+                        <div className="font-label-nav text-label-nav font-semibold text-primary text-[12px] md:text-sm">{product.thicknesses}</div>
                       </div>
+                      {/* Bottom-Right: Warranty */}
                       <div>
                         <div className="font-caption text-caption text-slate uppercase tracking-wider mb-1">Warranty</div>
-                        <div className="font-label-nav text-label-nav font-semibold text-primary">{product.warranty}</div>
+                        <div className="font-label-nav text-label-nav font-semibold text-primary text-[12px] md:text-sm">{product.warranty}</div>
                       </div>
                     </div>
 
@@ -247,3 +257,6 @@ export default function MattressesPage() {
     </main>
   );
 }
+
+
+

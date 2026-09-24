@@ -52,10 +52,10 @@ export default function CompareTable() {
       label: "Firmness",
       render: (p: MattressProduct) => (
         <div className="flex flex-col gap-2">
-          <div className="w-full h-1.5 bg-surface-container rounded-full overflow-hidden">
+          <span className="font-label-nav font-bold text-primary">{p.firmness}/10 ({p.firmnessLabel})</span>
+          <div className="w-full h-2 bg-surface-white border border-primary rounded-full overflow-hidden">
             <div className="h-full bg-primary rounded-full" style={{ width: `${(p.firmness / 10) * 100}%` }}></div>
           </div>
-          <span className="font-label-nav font-bold text-primary">{p.firmness}/10 ({p.firmnessLabel})</span>
         </div>
       ),
     },
@@ -80,7 +80,7 @@ export default function CompareTable() {
           {/* STICKY HEADER */}
           <thead className="sticky top-0 z-20 bg-surface-white shadow-[0_1px_0_0_rgba(0,0,0,0.1)]">
             <tr>
-              <th className="p-6 w-[20%] min-w-[180px] sticky left-0 z-30 bg-surface-white border-r border-hairline align-bottom">
+              <th className="p-6 w-[20%] min-w-[180px] sticky left-0 z-30 bg-surface-white border-r border-hairline align-middle">
                 <span className="font-caption text-slate uppercase tracking-wider block mb-2">Compare</span>
                 <span className="font-headline-sm text-primary block leading-tight">Specifications</span>
               </th>
@@ -109,12 +109,15 @@ export default function CompareTable() {
               ))}
 
               {Array.from({ length: emptyCols }).map((_, i) => (
-                <th key={`empty-${i}`} className="p-6 w-[26.6%] min-w-[220px] border-r border-hairline align-top">
-                  <div className="w-full aspect-[4/3] rounded-lg border-2 border-dashed border-hairline flex flex-col items-center justify-center bg-surface mb-4">
-                    <span className="material-symbols-outlined text-slate text-3xl mb-2">add</span>
-                  </div>
-                  <Link href="/mattresses" className="block text-center font-label-nav text-primary underline">
-                    Add another
+                <th key={`empty-${i}`} className="relative p-6 w-[26.6%] min-w-[220px] border-r border-hairline align-top">
+                  <Link 
+                    href="/mattresses" 
+                    className="absolute inset-6 rounded-lg border-2 border-dashed border-hairline flex flex-col items-center justify-center bg-surface hover:bg-surface-container transition-colors group"
+                  >
+                    <div className="w-12 h-12 rounded-full bg-surface-white border border-hairline shadow-sm flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
+                      <span className="material-symbols-outlined text-primary text-2xl">add</span>
+                    </div>
+                    <span className="font-label-nav font-semibold text-primary">Add another</span>
                   </Link>
                 </th>
               ))}

@@ -46,15 +46,15 @@ export default function ProductConfigurator({ product }: { product: MattressProd
           <Link href="/mattresses" className="hover:underline">Mattresses</Link> 
           <span className="mx-2">/</span> {product.name}
         </div>
-        <h1 className="font-display-md text-display-md text-primary mb-2">{product.name}</h1>
+        <h1 className="font-headline-lg text-headline-lg text-primary mb-2">{product.name}</h1>
         <p className="font-body-regular text-body-regular text-slate">{product.description}</p>
         <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 mt-3 group">
           <div className="flex items-center text-[#DCA544]">
-            <span className="material-symbols-outlined text-[16px]">star</span>
-            <span className="material-symbols-outlined text-[16px]">star</span>
-            <span className="material-symbols-outlined text-[16px]">star</span>
-            <span className="material-symbols-outlined text-[16px]">star</span>
-            <span className="material-symbols-outlined text-[16px]">star_half</span>
+            <span className="material-symbols-outlined text-[16px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+            <span className="material-symbols-outlined text-[16px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+            <span className="material-symbols-outlined text-[16px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+            <span className="material-symbols-outlined text-[16px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+            <span className="material-symbols-outlined text-[16px]" style={{ fontVariationSettings: "'FILL' 1" }}>star_half</span>
           </div>
           <span className="font-label-nav text-label-nav font-medium text-slate group-hover:underline ml-1">4.6 · 62 reviews</span>
         </a>
@@ -65,11 +65,11 @@ export default function ProductConfigurator({ product }: { product: MattressProd
       {/* Firmness */}
       <div>
         <h3 className="font-label-form text-label-form font-semibold text-primary uppercase tracking-wider mb-4">Firmness</h3>
-        <div className="flex items-center gap-3">
-          <div className="w-full max-w-[200px] h-2 bg-surface-container rounded-full overflow-hidden">
+        <div className="flex flex-col gap-2">
+          <span className="font-label-nav text-label-nav font-bold text-primary whitespace-nowrap">{product.firmness} / 10 ({product.firmnessLabel})</span>
+          <div className="w-full max-w-[200px] h-2 bg-surface-white border border-primary rounded-full overflow-hidden">
             <div className="h-full bg-primary rounded-full" style={{ width: `${(product.firmness / 10) * 100}%` }}></div>
           </div>
-          <span className="font-label-nav text-label-nav font-bold text-primary whitespace-nowrap">{product.firmness} · {product.firmnessLabel}</span>
         </div>
       </div>
 

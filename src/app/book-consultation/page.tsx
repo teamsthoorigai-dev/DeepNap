@@ -269,22 +269,22 @@ export default function BookConsultationPage() {
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="relative aspect-square rounded-xl overflow-hidden border border-hairline group">
-              <Image src="https://images.unsplash.com/photo-n9r0S3zfoMc?auto=format&fit=crop&q=80&w=800" alt="Natural Latex" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+              <Image src="https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&q=80&w=800" alt="Natural Latex" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
               <div className="absolute inset-0 bg-gradient-to-t from-navy-deep/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-4 left-4 font-title-card text-surface-white">Natural Latex</div>
             </div>
             <div className="relative aspect-square rounded-xl overflow-hidden border border-hairline group">
-              <Image src="https://images.unsplash.com/photo-pWUyHVJgLhg?auto=format&fit=crop&q=80&w=800" alt="Rubberised Coir" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+              <Image src="https://images.unsplash.com/photo-1536882240095-0379873feb4e?auto=format&fit=crop&q=80&w=800" alt="Rubberised Coir" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
               <div className="absolute inset-0 bg-gradient-to-t from-navy-deep/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-4 left-4 font-title-card text-surface-white">Rubberised Coir</div>
             </div>
             <div className="relative aspect-square rounded-xl overflow-hidden border border-hairline group">
-              <Image src="https://images.unsplash.com/photo-SLIFI67jv5k?auto=format&fit=crop&q=80&w=800" alt="Memory Foam" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+              <Image src="https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&q=80&w=800" alt="Memory Foam" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
               <div className="absolute inset-0 bg-gradient-to-t from-navy-deep/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-4 left-4 font-title-card text-surface-white">Memory Foam</div>
             </div>
             <div className="relative aspect-square rounded-xl overflow-hidden border border-hairline group">
-              <Image src="https://images.unsplash.com/photo-9GwMIek9jnY?auto=format&fit=crop&q=80&w=800" alt="Premium Fabric" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+              <Image src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&q=80&w=800" alt="Premium Fabric" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
               <div className="absolute inset-0 bg-gradient-to-t from-navy-deep/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-4 left-4 font-title-card text-surface-white">Premium Fabric</div>
             </div>

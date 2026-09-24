@@ -29,7 +29,7 @@ const slides = [
     description: "No middlemen, no hidden costs. Premium quality at honest prices.",
     ctaText: "Why Deep Nap?",
     ctaLink: "/guide",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200",
+    image: "https://images.unsplash.com/photo-1581428982868-e410dd047a90?auto=format&fit=crop&q=80&w=1200",
   },
 ];
 

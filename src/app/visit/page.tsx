@@ -53,7 +53,7 @@ Please confirm if this time works.`;
           
           {/* LEFT: Details */}
           <div className="flex flex-col">
-            <h1 className="font-display-lg text-primary text-[40px] md:text-[52px] leading-[1.1] mb-8">
+            <h1 className="font-display-lg text-primary text-[40px] md:text-[52px] leading-[1.1] tracking-tight mb-8">
               Come and visit us.
             </h1>
             
@@ -93,9 +93,9 @@ Please confirm if this time works.`;
                 href="https://maps.google.com/maps?daddr=Deep+Nap+Mattress,Chinniyampalayam,Coimbatore" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="flex-1"
+                className="w-full sm:w-auto"
               >
-                <PrimaryButton className="w-full justify-center !h-14">
+                <PrimaryButton className="w-full sm:w-auto !h-14 !rounded-full">
                   <span className="material-symbols-outlined text-[20px] mr-2">directions</span>
                   Get directions
                 </PrimaryButton>
@@ -104,10 +104,10 @@ Please confirm if this time works.`;
                 href="https://wa.me/919600889334" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="flex-1 inline-flex items-center justify-center font-label-nav font-medium h-14 px-6 rounded-lg border-2 border-primary text-primary hover:bg-primary/5 transition-colors"
+                className="w-full sm:w-auto inline-flex items-center justify-center font-label-nav font-medium h-14 px-6 !rounded-full border-[1.5px] border-primary-container text-primary-container hover:bg-primary-container hover:text-surface-white transition-colors"
               >
-                <span className="material-symbols-outlined text-[20px] mr-2 text-[#25D366]">chat</span>
-                WhatsApp us
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16" className="text-[#25D366] mr-2"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c-.003 1.396.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c.003-3.625 2.952-6.57 6.577-6.57a6.59 6.59 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/></svg>
+                WhatsApp
               </a>
             </div>
           </div>
@@ -116,10 +116,10 @@ Please confirm if this time works.`;
           <div className="grid grid-cols-2 gap-4 h-full min-h-[400px]">
             <div className="flex flex-col gap-4">
               <div className="relative aspect-[4/5] rounded-2xl overflow-hidden bg-[#EFE5D7]">
-                <Image src="https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&q=80&w=800" alt="Shop Interior" fill className="object-cover" />
+                <Image src="https://images.unsplash.com/photo-1558211583-d26f610c1eb1?auto=format&fit=crop&q=80&w=800" alt="Shop Interior" fill className="object-cover" />
               </div>
               <div className="relative flex-grow rounded-2xl overflow-hidden bg-[#EFE5D7] min-h-[150px]">
-                <Image src="https://images.unsplash.com/photo-n9r0S3zfoMc?auto=format&fit=crop&q=80&w=800" alt="Materials Display" fill className="object-cover" />
+                <Image src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&q=80&w=800" alt="Materials Display" fill className="object-cover" />
               </div>
             </div>
             <div className="flex flex-col gap-4 pt-10">
@@ -140,7 +140,7 @@ Please confirm if this time works.`;
         <div className="max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16">
           
           <div className="bg-surface-white p-8 rounded-2xl border border-hairline shadow-sm">
-            <h2 className="font-headline-lg text-primary mb-6">What you can do here</h2>
+            <h2 className="text-[32px] md:text-[40px] font-semibold tracking-tight text-primary mb-6 leading-tight">What you can do here</h2>
             <ul className="space-y-4">
               <li className="flex items-start gap-4">
                 <span className="material-symbols-outlined text-[#DCA544] mt-0.5">check_circle</span>
@@ -180,7 +180,7 @@ Please confirm if this time works.`;
             
             <a href="https://google.com" target="_blank" rel="noopener noreferrer" className="bg-surface-white p-8 rounded-2xl border border-hairline shadow-sm flex items-center justify-between group hover:border-[#DCA544]/50 transition-colors cursor-pointer">
               <div className="flex items-center gap-4">
-                <div className="flex text-[#DCA544] text-2xl">
+                <div className="flex text-[#DCA544] text-2xl" style={{ fontVariationSettings: '"FILL" 1' }}>
                   <span className="material-symbols-outlined fill-current">star</span>
                   <span className="material-symbols-outlined fill-current">star</span>
                   <span className="material-symbols-outlined fill-current">star</span>
@@ -202,7 +202,7 @@ Please confirm if this time works.`;
       {/* SECTION 4 - BOOKING FORM */}
       <section className="w-full py-20 px-gutter md:px-gutter-tablet lg:px-gutter-desktop border-t border-hairline">
         <div className="max-w-[700px] mx-auto text-center">
-          <h2 className="font-display-md text-primary mb-4">Book a store visit</h2>
+          <h2 className="text-[32px] md:text-[40px] font-semibold tracking-tight text-primary mb-4 leading-tight">Book a store visit</h2>
           <p className="font-body-regular text-slate mb-10">
             Let us know when you're coming so our sleep experts can be ready for you.
           </p>
@@ -261,7 +261,7 @@ Please confirm if this time works.`;
               </div>
             </div>
 
-            <PrimaryButton type="submit" className="w-full justify-center !h-14 font-semibold text-base">
+            <PrimaryButton type="submit" className="w-full justify-center !h-14 !rounded-full font-semibold text-base">
               Send request via WhatsApp
             </PrimaryButton>
             

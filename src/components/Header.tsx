@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 import React, { useState } from "react";
 import Link from "next/link";
 import { PrimaryButton, WhatsAppButton } from "./Buttons";
@@ -31,9 +31,7 @@ export default function Header() {
                   NOTE (2026 Brand Update):
                   Text placeholder. Replace with the new 3-layer wave SVG from the 2026 Brand Identity once available.
                 */}
-                <span className="text-[32px] md:text-[36px] font-black text-primary tracking-tighter leading-none flex items-center">
-                  Deep Nap
-                </span>
+                <img src="/logo-dark-horizontal.png" alt="Deep Nap" className="h-8 md:h-[36px] w-auto" />
               </div>
             </Link>
           </div>
