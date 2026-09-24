@@ -13,7 +13,7 @@ const slides = [
     description: "Experience the perfect balance of comfort and support with our premium mattresses.",
     ctaText: "Shop Mattresses",
     ctaLink: "/mattresses",
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&q=80&w=1200",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const slides = [
     description: "Any size, any shape. We build mattresses to fit your custom requirements.",
     ctaText: "Custom Sizes",
     ctaLink: "/custom-size",
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&q=80&w=1200",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const slides = [
     description: "No middlemen, no hidden costs. Premium quality at honest prices.",
     ctaText: "Why Deep Nap?",
     ctaLink: "/guide",
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1200",
   },
 ];
 
@@ -55,7 +55,7 @@ export default function HeroCarousel() {
   }, [emblaApi, onSelect]);
 
   return (
-    <section className="relative w-full h-[600px] md:h-[700px] lg:h-[800px] bg-surface-container overflow-hidden">
+    <section className="relative w-full h-[500px] md:h-[600px] lg:h-[700px] bg-surface-container overflow-hidden">
       <div className="overflow-hidden h-full" ref={emblaRef}>
         <div className="flex h-full">
           {slides.map((slide) => (

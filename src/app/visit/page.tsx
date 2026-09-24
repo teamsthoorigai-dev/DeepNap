@@ -119,7 +119,7 @@ Please confirm if this time works.`;
                 <Image src="https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&q=80&w=800" alt="Shop Interior" fill className="object-cover" />
               </div>
               <div className="relative flex-grow rounded-2xl overflow-hidden bg-[#EFE5D7] min-h-[150px]">
-                <Image src="https://images.unsplash.com/photo-1634546592231-15582fcc978a?auto=format&fit=crop&q=80&w=800" alt="Materials Display" fill className="object-cover" />
+                <Image src="https://images.unsplash.com/photo-n9r0S3zfoMc?auto=format&fit=crop&q=80&w=800" alt="Materials Display" fill className="object-cover" />
               </div>
             </div>
             <div className="flex flex-col gap-4 pt-10">

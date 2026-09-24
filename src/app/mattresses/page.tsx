@@ -46,7 +46,7 @@ export default function MattressesPage() {
       </div>
 
       {/* Filter Bar */}
-      <div className="w-full bg-surface-white border-b border-hairline sticky top-[116px] z-30 shadow-sm">
+      <div className="w-full bg-surface-white border-b border-hairline sticky top-20 z-30 shadow-sm">
         <div className="max-w-[1280px] mx-auto px-gutter md:px-gutter-tablet lg:px-gutter-desktop py-4 overflow-x-auto no-scrollbar">
           <div className="flex items-center gap-3 whitespace-nowrap min-w-max">
             <span className="font-label-nav text-label-nav text-slate mr-2 font-medium">Filter by Type:</span>

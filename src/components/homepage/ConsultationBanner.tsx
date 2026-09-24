@@ -5,7 +5,7 @@ import { PrimaryButton } from "../Buttons";
 export default function ConsultationBanner() {
   return (
     <section className="w-full bg-surface py-16 md:py-24 px-gutter md:px-gutter-tablet lg:px-gutter-desktop">
-      <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+      <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
         
         {/* Left 45% (5 cols) */}
         <div className="lg:col-span-5">
@@ -27,7 +27,7 @@ export default function ConsultationBanner() {
           <p className="font-body-editorial text-body-editorial text-on-surface-variant max-w-xl">
             Book a 15-minute video call. We ask about your bed, your back and how you sleep, then specify the mattress around it.
           </p>
-          <p className="font-body-lead text-body-lead text-slate max-w-xl">
+          <p className="font-body-editorial text-body-editorial text-on-surface-variant max-w-xl">
             Or book a home visit: an advisor can bring physical foam, latex and fabric samples to your house anywhere in Coimbatore.
           </p>
           <div className="pt-space-xs">

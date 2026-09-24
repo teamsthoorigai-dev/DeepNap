@@ -21,20 +21,27 @@ export default function DiwanCotsPage() {
   return (
     <main className="w-full bg-surface min-h-screen relative pb-20">
       {/* Header Area */}
-      <div className="w-full bg-[#EFE5D7] pt-12 pb-8 px-gutter md:px-gutter-tablet lg:px-gutter-desktop">
-        <div className="max-w-[1280px] mx-auto">
-          <div className="font-caption text-caption text-slate mb-4">
-            <Link href="/" className="hover:underline">Home</Link> <span className="mx-2">/</span> Diwan Cots
+      <div className="relative w-full pt-16 pb-12 px-gutter md:px-gutter-tablet lg:px-gutter-desktop overflow-hidden">
+        <Image 
+          src="https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&q=80&w=2000"
+          alt="Diwan Cots Collection Banner"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-primary/60"></div>
+        <div className="max-w-[1280px] mx-auto relative z-10">
+          <div className="font-caption text-caption text-surface-white/80 mb-4">
+            <Link href="/" className="hover:text-surface-white transition-colors">Home</Link> <span className="mx-2">/</span> Diwan Cots
           </div>
-          <h1 className="font-display-lg text-display-lg text-primary">Diwan cots</h1>
-          <p className="font-body-regular text-body-regular text-slate mt-2 max-w-2xl">
+          <p className="font-body-lead text-body-lead text-surface-white mt-2 max-w-2xl font-medium drop-shadow-sm">
             We make diwan cots to order in five finishes. Everything is built for your size and installed by our team.
           </p>
         </div>
       </div>
 
       {/* Filter Bar */}
-      <div className="w-full bg-surface-white border-b border-hairline sticky top-[116px] z-30 shadow-sm">
+      <div className="w-full bg-surface-white border-b border-hairline sticky top-20 z-30 shadow-sm">
         <div className="max-w-[1280px] mx-auto px-gutter md:px-gutter-tablet lg:px-gutter-desktop py-4 flex flex-col md:flex-row md:items-center justify-between gap-4">
           
           <div className="flex items-center gap-3 overflow-x-auto no-scrollbar min-w-max">
@@ -82,7 +89,7 @@ export default function DiwanCotsPage() {
       </div>
 
       {/* Grid */}
-      <div className="max-w-[1280px] mx-auto px-gutter md:px-gutter-tablet lg:px-gutter-desktop py-12 md:py-20">
+      <div className="max-w-[1280px] mx-auto px-gutter md:px-gutter-tablet lg:px-gutter-desktop py-8 md:py-10">
         {filteredCots.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
             {filteredCots.map((cot) => (

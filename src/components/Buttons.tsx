@@ -29,7 +29,7 @@ const PrimaryButton = ({ href, children, className = "", target, rel, ...props }
 };
 
 const SecondaryButton = ({ href, children, className = "", target, rel, ...props }: ButtonProps) => {
-  const baseClasses = "inline-flex items-center justify-center h-12 px-6 rounded-full bg-transparent text-primary-container font-label-nav text-label-nav font-semibold border-[1.5px] border-primary-container hover:bg-primary-container/5 transition-all";
+  const baseClasses = "inline-flex items-center justify-center h-12 px-6 rounded-full bg-transparent text-primary-container font-label-nav text-label-nav font-semibold border-[1.5px] border-primary-container hover:bg-primary-container hover:text-surface-white transition-all";
   const combinedClasses = `${baseClasses} ${className}`;
 
   if (href) {

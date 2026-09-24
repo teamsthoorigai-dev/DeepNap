@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import React, { useState } from "react";
 import Link from "next/link";
 import { PrimaryButton, WhatsAppButton } from "./Buttons";
@@ -40,19 +40,19 @@ export default function Header() {
 
           {/* Desktop Nav */}
           <nav className="hidden xl:flex items-center gap-space-md">
-            <Link href="/mattresses" className="font-label-nav text-label-nav text-on-surface-variant hover:text-on-surface transition-colors py-1.5">
+            <Link href="/mattresses" className="font-label-nav text-base font-semibold text-slate hover:text-primary transition-colors py-1.5">
               Mattresses
             </Link>
-            <Link href="/diwan-cots" className="font-label-nav text-label-nav text-on-surface-variant hover:text-on-surface transition-colors py-1.5">
+            <Link href="/diwan-cots" className="font-label-nav text-base font-semibold text-slate hover:text-primary transition-colors py-1.5">
               Diwan cots
             </Link>
-            <Link href="/custom-size" className="font-label-nav text-label-nav text-on-surface-variant hover:text-on-surface transition-colors py-1.5">
+            <Link href="/custom-size" className="font-label-nav text-base font-semibold text-slate hover:text-primary transition-colors py-1.5">
               Custom size
             </Link>
-            <Link href="/b2b" className="font-label-nav text-label-nav text-on-surface-variant hover:text-on-surface transition-colors py-1.5">
+            <Link href="/b2b" className="font-label-nav text-base font-semibold text-slate hover:text-primary transition-colors py-1.5">
               Bulk orders
             </Link>
-            <Link href="/visit" className="font-label-nav text-label-nav text-on-surface-variant hover:text-on-surface transition-colors py-1.5">
+            <Link href="/visit" className="font-label-nav text-base font-semibold text-slate hover:text-primary transition-colors py-1.5">
               Visit us
             </Link>
           </nav>
@@ -94,19 +94,19 @@ export default function Header() {
               </button>
             </div>
             <nav className="flex flex-col p-4 gap-4">
-              <Link href="/mattresses" className="font-label-nav text-lg text-primary font-semibold" onClick={() => setIsMobileMenuOpen(false)}>
+              <Link href="/mattresses" className="font-label-nav text-lg text-primary font-bold" onClick={() => setIsMobileMenuOpen(false)}>
                 Mattresses
               </Link>
-              <Link href="/diwan-cots" className="font-label-nav text-lg text-on-surface-variant" onClick={() => setIsMobileMenuOpen(false)}>
+              <Link href="/diwan-cots" className="font-label-nav text-lg text-slate font-semibold hover:text-primary" onClick={() => setIsMobileMenuOpen(false)}>
                 Diwan cots
               </Link>
-              <Link href="/custom-size" className="font-label-nav text-lg text-on-surface-variant" onClick={() => setIsMobileMenuOpen(false)}>
+              <Link href="/custom-size" className="font-label-nav text-lg text-slate font-semibold hover:text-primary" onClick={() => setIsMobileMenuOpen(false)}>
                 Custom size
               </Link>
-              <Link href="/b2b" className="font-label-nav text-lg text-on-surface-variant" onClick={() => setIsMobileMenuOpen(false)}>
+              <Link href="/b2b" className="font-label-nav text-lg text-slate font-semibold hover:text-primary" onClick={() => setIsMobileMenuOpen(false)}>
                 Bulk orders
               </Link>
-              <Link href="/visit" className="font-label-nav text-lg text-on-surface-variant" onClick={() => setIsMobileMenuOpen(false)}>
+              <Link href="/visit" className="font-label-nav text-lg text-slate font-semibold hover:text-primary" onClick={() => setIsMobileMenuOpen(false)}>
                 Visit us
               </Link>
             </nav>

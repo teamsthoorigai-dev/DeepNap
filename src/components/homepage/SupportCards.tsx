@@ -29,7 +29,7 @@ export default function SupportCards() {
           <div className="bg-surface-white shadow-md rounded-xl border border-hairline border-t-4 border-t-hairline p-6 flex flex-col justify-between transition-shadow">
             <div className="space-y-4">
               <div className="flex justify-between items-baseline">
-                <h3 className="font-title-card text-title-card text-primary font-bold">Soft</h3>
+                <h3 className="font-title-card text-title-card text-primary font-semibold">Soft</h3>
                 <span className="font-label-nav text-label-nav font-bold text-[#DCA544]">Scale 3–4</span>
               </div>
               <div className="w-full h-36 rounded-lg overflow-hidden bg-surface-container relative">
@@ -57,13 +57,13 @@ export default function SupportCards() {
           </div>
 
           {/* Medium Firm Card (Featured) */}
-          <div className="bg-surface-white rounded-xl border border-hairline border-t-4 border-t-[#DCA544] p-6 flex flex-col justify-between shadow-md relative">
-            <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-[#142C47] text-surface-white px-6 py-1.5 rounded-full text-caption font-semibold tracking-wider uppercase whitespace-nowrap">
+          <div className="bg-surface-white rounded-xl border border-hairline border-t-4 border-t-[#DCA544] p-6 flex flex-col justify-between shadow-md relative mt-4 md:mt-0">
+            <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-navy-deep text-surface-white px-8 py-2 rounded-full text-caption font-semibold tracking-wider uppercase whitespace-nowrap">
               Most Chosen
             </div>
             <div className="space-y-4">
               <div className="flex justify-between items-baseline">
-                <h3 className="font-title-card text-title-card text-primary font-bold">Medium Firm</h3>
+                <h3 className="font-title-card text-title-card text-primary font-semibold">Medium Firm</h3>
                 <span className="font-label-nav text-label-nav font-bold text-[#DCA544]">Scale 6–7</span>
               </div>
               <div className="w-full h-36 rounded-lg overflow-hidden bg-surface-container relative">
@@ -94,7 +94,7 @@ export default function SupportCards() {
           <div className="bg-surface-white shadow-md rounded-xl border border-hairline border-t-4 border-t-hairline p-6 flex flex-col justify-between transition-shadow">
             <div className="space-y-4">
               <div className="flex justify-between items-baseline">
-                <h3 className="font-title-card text-title-card text-primary font-bold">Firm</h3>
+                <h3 className="font-title-card text-title-card text-primary font-semibold">Firm</h3>
                 <span className="font-label-nav text-label-nav font-bold text-[#DCA544]">Scale 8–9</span>
               </div>
               <div className="w-full h-36 rounded-lg overflow-hidden bg-surface-container relative">

@@ -7,12 +7,9 @@ import { PrimaryButton, SecondaryButton } from "../Buttons";
 export default function Hero() {
   return (
     <section className="w-full bg-surface py-12 md:py-16 lg:py-20 px-gutter md:px-gutter-tablet lg:px-gutter-desktop">
-      <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+      <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
         {/* Left Column (approx 55% / 7 cols) */}
         <div className="lg:col-span-7 flex flex-col space-y-space-md">
-          <span className="font-overline text-overline text-accent-teal tracking-widest uppercase">
-            MADE TO ORDER IN COIMBATORE
-          </span>
           <h1 className="font-display-hero text-headline-lg md:font-display-hero md:text-display-hero text-primary tracking-tight leading-tight">
             Firmness you can<br />actually measure.
           </h1>
@@ -40,7 +37,7 @@ export default function Hero() {
         {/* Right Column (approx 45% / 5 cols) */}
         <div className="lg:col-span-5 flex justify-center lg:justify-end">
           <div className="w-full max-w-[460px] bg-surface-white rounded-xl shadow-md border border-hairline p-6 flex flex-col space-y-4">
-            <div className="flex justify-between items-start">
+            <div className="flex justify-between items-start gap-4">
               <div>
                 <h2 className="font-title-card text-title-card text-primary font-bold">
                   Natural Latex & Pocket Spring
@@ -49,7 +46,7 @@ export default function Hero() {
                   Pin-core natural latex with individually encased pocket springs
                 </p>
               </div>
-              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-gold-soft/60 text-tertiary-container font-caption text-caption font-semibold">
+              <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-gold-soft/60 text-tertiary-container font-caption text-caption font-semibold whitespace-nowrap">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#DCA544]"></span>Best seller
               </span>
             </div>

@@ -1,4 +1,4 @@
-﻿import React from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { SecondaryButton } from "../Buttons";
@@ -6,16 +6,16 @@ import { SecondaryButton } from "../Buttons";
 export default function ProductRange() {
   return (
     <section className="w-full bg-surface-white py-16 md:py-24 px-gutter md:px-gutter-tablet lg:px-gutter-desktop">
-      <div className="max-w-[1280px] mx-auto flex flex-col space-y-10">
+      <div className="max-w-[1280px] mx-auto flex flex-col">
         
         {/* Section Header */}
-        <div>
+        <div className="mb-10">
           <h2 className="font-headline-lg text-headline-lg text-primary tracking-tight">The range</h2>
           <p className="font-body-lead text-body-lead text-slate mt-1">13 mattress types, 18 standard sizes, six thicknesses.</p>
         </div>
 
         {/* Filter Pills */}
-        <div className="flex flex-wrap gap-2.5 items-center">
+        <div className="flex flex-wrap gap-2.5 items-center mb-6">
           <button className="h-8 px-4 rounded-full bg-[#142C47] text-[#EFE5D7] font-label-form text-label-form font-semibold" type="button">
             All types
           </button>
