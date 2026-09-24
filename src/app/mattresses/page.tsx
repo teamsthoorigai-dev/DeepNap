@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -33,13 +33,20 @@ export default function MattressesPage() {
   return (
     <main className="w-full bg-surface min-h-screen relative pb-20">
       {/* Header Area */}
-      <div className="w-full bg-[#EFE5D7] pt-12 pb-8 px-gutter md:px-gutter-tablet lg:px-gutter-desktop">
-        <div className="max-w-[1280px] mx-auto">
-          <div className="font-caption text-caption text-slate mb-4">
-            <Link href="/" className="hover:underline">Home</Link> <span className="mx-2">/</span> Mattresses
+      <div className="relative w-full pt-16 pb-12 px-gutter md:px-gutter-tablet lg:px-gutter-desktop overflow-hidden">
+        <Image 
+          src="https://images.unsplash.com/photo-1505693314120-0d443867891c?auto=format&fit=crop&q=80&w=2000"
+          alt="Mattresses Collection Banner"
+          fill
+          className="object-cover"
+          priority
+        />
+        <div className="absolute inset-0 bg-primary/60"></div>
+        <div className="max-w-[1280px] mx-auto relative z-10">
+          <div className="font-caption text-caption text-surface-white/80 mb-4">
+            <Link href="/" className="hover:text-surface-white transition-colors">Home</Link> <span className="mx-2">/</span> Mattresses
           </div>
-          <h1 className="font-display-lg text-display-lg text-primary">Mattresses</h1>
-          <p className="font-body-regular text-body-regular text-slate mt-2 max-w-2xl">
+          <p className="font-body-lead text-body-lead text-surface-white mt-2 max-w-2xl font-medium drop-shadow-sm">
             Every mattress made to order in our own unit, in any of 18 standard sizes or yours. Built for comfort, backed by honest pricing.
           </p>
         </div>
@@ -80,9 +87,9 @@ export default function MattressesPage() {
       </div>
 
       {/* Grid */}
-      <div className="max-w-[1280px] mx-auto px-gutter md:px-gutter-tablet lg:px-gutter-desktop py-12 md:py-20">
+      <div className="max-w-[1280px] mx-auto px-gutter md:px-gutter-tablet lg:px-gutter-desktop py-8 md:py-10">
         {filteredProducts.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8">
             {filteredProducts.map((product) => {
               const isSelected = compareSlugs.includes(product.slug);
               
@@ -147,14 +154,14 @@ export default function MattressesPage() {
                       </div>
                     </div>
 
-                    <div className="mt-auto flex items-end justify-between pt-4 border-t border-hairline">
+                    <div className="mt-auto flex flex-col gap-4 pt-4 border-t border-hairline">
                       <div>
                         <div className="font-price-display text-price-display text-primary">₹{product.priceFrom.toLocaleString('en-IN')}</div>
                         <div className="font-caption text-caption text-slate">indicative starting price</div>
                       </div>
                       <Link 
                         href={`/mattresses/${product.slug}`}
-                        className="h-10 px-5 rounded-lg border border-primary text-primary font-label-nav text-label-nav font-semibold flex items-center justify-center hover:bg-primary hover:text-surface-white transition-colors"
+                        className="w-full h-10 px-5 rounded-full border border-primary text-primary font-label-nav text-label-nav font-semibold flex items-center justify-center hover:bg-primary hover:text-surface-white transition-colors"
                       >
                         View details
                       </Link>
