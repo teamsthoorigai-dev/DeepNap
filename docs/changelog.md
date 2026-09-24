@@ -1,10 +1,13 @@
-# Changelog
+﻿# Changelog
 
 All notable changes to the Deep Nap project will be documented in this file.
 
 ## [2026-09-24]
 
 ### Added & Changed
+- **CTA Button UI Standardization:**
+  - Standardized all Call-to-Action (CTA) buttons across the application to feature a fully rounded, oval pill shape (`rounded-full`), aligning with the primary header buttons.
+  - Converted various inline text links with hover underlines (e.g., "Compare", "Enquire", "View Soft Mattresses", and "View our Google listing & reviews") into prominent `SecondaryButton` CTA components for better visibility and interaction.
 - **Header & Footer Enhancements:**
   - Removed top blue Utility Bar to streamline navigation and adjusted layout padding (`pt-20`) so the hero carousel sits perfectly flush with the header.
   - Replaced broken image logos in header and footer with a prominent, heavy-weight text-based logo ("Deep Nap" - 36px).

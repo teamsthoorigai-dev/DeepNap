@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import Link from "next/link";
 import { PrimaryButton } from "../Buttons";
 
@@ -51,7 +51,7 @@ export default function VisitUs() {
               WhatsApp
             </a>
             <a
-              className="inline-flex items-center gap-1.5 h-11 px-5 rounded-lg border border-primary-container text-primary font-label-nav text-label-nav font-semibold hover:bg-surface-white transition-all"
+              className="inline-flex items-center gap-1.5 h-11 px-5 rounded-full border border-primary-container text-primary font-label-nav text-label-nav font-semibold hover:bg-surface-white transition-all"
               href="https://maps.google.com"
               rel="noopener noreferrer"
               target="_blank"

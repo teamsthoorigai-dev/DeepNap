@@ -104,7 +104,7 @@
   --text-display-hero: 52px;
   --text-display-hero--line-height: 60px;
   --text-display-hero--letter-spacing: -0.02em;
-  --text-display-hero--font-weight: 800;
+  --text-display-hero--font-weight: 700;
 
   --text-headline-lg-mobile: 28px;
   --text-headline-lg-mobile--line-height: 36px;
@@ -159,7 +159,7 @@
   --text-headline-lg: 40px;
   --text-headline-lg--line-height: 48px;
   --text-headline-lg--letter-spacing: -0.015em;
-  --text-headline-lg--font-weight: 800;
+  --text-headline-lg--font-weight: 600;
 }
 
 @layer base {

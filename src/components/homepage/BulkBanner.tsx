@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import Link from "next/link";
 
 export default function BulkBanner() {
@@ -29,7 +29,7 @@ export default function BulkBanner() {
         <div className="shrink-0">
           <Link
             href="/b2b"
-            className="inline-flex items-center justify-center h-12 px-7 rounded-lg border-[1.5px] border-[#EFE5D7] text-[#EFE5D7] font-label-nav text-label-nav font-semibold hover:bg-surface-white hover:text-primary transition-all"
+            className="inline-flex items-center justify-center h-12 px-7 rounded-full border-[1.5px] border-[#EFE5D7] text-[#EFE5D7] font-label-nav text-label-nav font-semibold hover:bg-surface-white hover:text-primary transition-all"
           >
             Request bulk pricing
           </Link>

@@ -1,5 +1,6 @@
-import React from "react";
-import Link from "next/link";`nimport { SecondaryButton } from "../Buttons";
+﻿import React from "react";
+import Link from "next/link";
+import { SecondaryButton } from "../Buttons";
 
 export default function Reviews() {
   return (
@@ -49,13 +50,7 @@ export default function Reviews() {
         </div>
 
         <div>
-          <SecondaryButton
-            href="https://maps.google.com"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            View our Google listing & reviews &rarr;
-          </SecondaryButton>
+          <SecondaryButton href="https://maps.google.com" target="_blank" rel="noopener noreferrer">View our Google listing & reviews &rarr;</SecondaryButton>
         </div>
       </div>
     </section>

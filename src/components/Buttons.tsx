@@ -1,19 +1,21 @@
-import React from "react";
+﻿import React from "react";
 import Link from "next/link";
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   href?: string;
   children: React.ReactNode;
   className?: string;
+  target?: string;
+  rel?: string;
 }
 
-const PrimaryButton = ({ href, children, className = "", ...props }: ButtonProps) => {
+const PrimaryButton = ({ href, children, className = "", target, rel, ...props }: ButtonProps) => {
   const baseClasses = "inline-flex items-center justify-center h-12 px-7 rounded-full bg-primary-container text-surface-white font-label-nav text-label-nav font-semibold hover:bg-navy-deep transition-all shadow-sm";
   const combinedClasses = `${baseClasses} ${className}`;
 
   if (href) {
     return (
-      <Link href={href} className={combinedClasses}>
+      <Link href={href} className={combinedClasses} target={target} rel={rel}>
         {children}
       </Link>
     );
@@ -26,13 +28,13 @@ const PrimaryButton = ({ href, children, className = "", ...props }: ButtonProps
   );
 };
 
-const SecondaryButton = ({ href, children, className = "", ...props }: ButtonProps) => {
+const SecondaryButton = ({ href, children, className = "", target, rel, ...props }: ButtonProps) => {
   const baseClasses = "inline-flex items-center justify-center h-12 px-6 rounded-full bg-transparent text-primary-container font-label-nav text-label-nav font-semibold border-[1.5px] border-primary-container hover:bg-primary-container/5 transition-all";
   const combinedClasses = `${baseClasses} ${className}`;
 
   if (href) {
     return (
-      <Link href={href} className={combinedClasses}>
+      <Link href={href} className={combinedClasses} target={target} rel={rel}>
         {children}
       </Link>
     );

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -94,7 +94,7 @@ export default function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
                 href="https://wa.me/919600889334" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center font-label-nav font-medium h-12 px-6 rounded-lg bg-[#25D366] text-surface-white hover:bg-[#1EBE5A] transition-colors w-full sm:w-auto"
+                className="inline-flex items-center justify-center font-label-nav font-medium h-12 px-6 rounded-full bg-[#25D366] text-surface-white hover:bg-[#1EBE5A] transition-colors w-full sm:w-auto"
               >
                 <span className="material-symbols-outlined text-[18px] mr-2">chat</span>
                 Ask on WhatsApp
@@ -102,7 +102,7 @@ export default function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
               <Link 
                 href="/custom-size" 
                 onClick={onClose}
-                className="inline-flex items-center justify-center font-label-nav font-medium h-12 px-6 rounded-lg bg-primary text-surface-white hover:bg-primary/90 transition-colors w-full sm:w-auto"
+                className="inline-flex items-center justify-center font-label-nav font-medium h-12 px-6 rounded-full bg-primary text-surface-white hover:bg-primary/90 transition-colors w-full sm:w-auto"
               >
                 Go to Custom Builder
               </Link>
@@ -174,7 +174,7 @@ export default function SearchOverlay({ isOpen, onClose }: SearchOverlayProps) {
               <Link 
                 href="/custom-size" 
                 onClick={onClose}
-                className="inline-flex items-center justify-center font-label-nav font-medium h-11 px-6 rounded-lg bg-[#EFE5D7] text-primary hover:bg-[#E5D7C3] transition-colors"
+                className="inline-flex items-center justify-center font-label-nav font-medium h-11 px-6 rounded-full bg-[#EFE5D7] text-primary hover:bg-[#E5D7C3] transition-colors"
               >
                 We make custom
               </Link>

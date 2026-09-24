@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { calculateIndicativePrice } from "@/actions/calculatePrice";
@@ -93,7 +93,7 @@ export default function CustomSizeBuilder() {
             <div className="sm:col-span-3 lg:col-span-1 flex items-end">
               <Link 
                 href={`https://wa.me/919600889334?text=${encodeURIComponent(`Hello, I would like to get a quote for a custom mattress (${length}x${width}x${thickness} inches).`)}`}
-                className="w-full h-[52px] flex items-center justify-center bg-primary-container text-surface-white rounded-lg font-label-nav text-label-nav font-semibold hover:bg-navy-deep transition-all shadow-sm"
+                className="w-full h-[52px] flex items-center justify-center bg-primary-container text-surface-white rounded-full font-label-nav text-label-nav font-semibold hover:bg-navy-deep transition-all shadow-sm"
                 target="_blank"
                 rel="noopener noreferrer"
               >
