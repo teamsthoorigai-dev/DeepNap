@@ -1,6 +1,27 @@
-﻿# Changelog
+# Changelog
 
 All notable changes to the Deep Nap project will be documented in this file.
+
+## [2026-09-25]
+
+### Added & Changed
+- **Website Color Palette Update:**
+  - Standardized website-wide color palette with refreshed Primary Navy, Surface Cream/White backgrounds, and Accent Teal highlights.
+  - Refined section background rhythms (`bg-surface-white` and `bg-surface`) across all landing pages, headers, footers, and product pages.
+  - Updated global CSS variables and brand configurations to enforce uniform visual hierarchy across all components.
+
+- **Quiz & Card UI Edits:**
+  - Redesigned Mattress Finder Quiz card layouts and option selectors with updated icons, borders, and interactive selected states.
+  - Enhanced product cards, support cards, and comparison cards across mattress and diwan cot listing pages.
+  - Standardized card elevation/shadows, padding, badge tags, and typography weights for improved content readability and visual consistency.
+
+- **Bulk Orders & B2B Card View:**
+  - Transformed B2B and institutional order sections into a modern grid of structured, interactive cards (`BulkBanner` and `/b2b` cards).
+  - Improved layout readability for bulk inquiries with clear iconography, benefit callouts, and direct WhatsApp / Inquiry CTAs.
+
+- **Website Button Style Redesign:**
+  - Overhauled all primary, secondary, and tertiary button components (`Buttons.tsx`).
+  - Implemented fully rounded oval pill shapes (`rounded-full`), smooth hover state transitions, icon integrations, and standardized heights/padding across desktop and mobile form factors.
 
 ## [2026-09-24]
 
