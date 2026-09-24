@@ -5,8 +5,13 @@ import { notFound } from "next/navigation";
 import { articlesData } from "@/data/articles";
 import { Metadata } from "next";
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const article = articlesData.find((a) => a.slug === params.slug);
+export function generateStaticParams() {
+  return articlesData.map((a) => ({ slug: a.slug }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const article = articlesData.find((a) => a.slug === slug);
   if (!article) return { title: "Article Not Found" };
   
   return {
@@ -66,8 +71,9 @@ function renderContent(content: string) {
   });
 }
 
-export default function ArticlePage({ params }: { params: { slug: string } }) {
-  const article = articlesData.find((a) => a.slug === params.slug);
+export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const article = articlesData.find((a) => a.slug === slug);
   
   if (!article) {
     notFound();

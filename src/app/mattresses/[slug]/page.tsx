@@ -4,6 +4,10 @@ import Image from "next/image";
 import { products } from "@/data/products";
 import ProductConfigurator from "@/components/ProductConfigurator";
 
+export function generateStaticParams() {
+  return products.map((p) => ({ slug: p.slug }));
+}
+
 export default async function ProductDetailPage({
   params,
 }: {

@@ -4,6 +4,10 @@ import Image from "next/image";
 import { cots } from "@/data/cots";
 import CotConfigurator from "@/components/CotConfigurator";
 
+export function generateStaticParams() {
+  return cots.map((c) => ({ slug: c.slug }));
+}
+
 export default async function DiwanCotDetailPage({
   params,
 }: {
