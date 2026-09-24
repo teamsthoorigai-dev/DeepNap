@@ -5,6 +5,21 @@ All notable changes to the Deep Nap project will be documented in this file.
 ## [2026-09-24]
 
 ### Added & Changed
+- **Header & Footer Enhancements:**
+  - Removed top blue Utility Bar to streamline navigation and adjusted layout padding (`pt-20`) so the hero carousel sits perfectly flush with the header.
+  - Replaced broken image logos in header and footer with a prominent, heavy-weight text-based logo ("Deep Nap" - 36px).
+  - Standardized navbar CTA button heights to `42px` and applied the classic WhatsApp brand green (`#25D366`) to the WhatsApp button.
+- **Layout & Section Refinements:**
+  - Standardized alternating section backgrounds (`bg-surface-white` vs `bg-surface`) across the homepage, eliminating hardcoded hex colors in `ConsultationBanner`, `VisitUs`, and correcting `ProductRange`.
+  - Removed the "Book a store visit" button from the map card on the Visit Us homepage section.
+- **Image Placeholder Replacements:**
+  - Replaced all local placeholder images and broken Google user-content links across the codebase with functional Unsplash URLs via an automated script.
+  - Generated a tracker document (`temporary_image_updates.md`) mapping all temporary image locations for future review.
+- **Homepage Structure & Styling Update:**
+  - Added new `HeroCarousel` component at the top of the homepage using `embla-carousel-react` for a premium, auto-playing image slider with dot navigation.
+  - Reordered homepage layout: `HeroCarousel` -> `TrustStrip` -> `Hero` (Firmness Scale) -> `CustomSizeBuilder`.
+  - Updated global body background to crisp white (`#FFFFFF`) to achieve a modern, airy layout.
+  - Adjusted background colors on `ProductRange` and `TrustStrip` to maintain alternating white (`#FFFFFF`) and beige (`#F4F1ED`) sections.
 - **Brand Identity 2026 Alignment:**
   - Integrated `Deep Nap Brand Identity.pdf` specifications.
   - Migrated primary brand font across headings and body to **Poppins** (`weights: 400, 500, 600, 700, 800`) via `next/font/google`.

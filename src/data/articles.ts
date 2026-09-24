@@ -21,7 +21,7 @@ export const articlesData: Article[] = [
     readTime: "4 min read",
     date: "12 Oct 2026",
     author: "Deep Nap Sleep Experts",
-    image: "https://lh3.googleusercontent.com/aida/AEtjO1VyBxylK-3YX6ydgNoyvEM6k3-IYwrftv2b1w8EZrMNWwbDHEkLstP3lfwBQYP1yub851HDJgdj69RnCc64OvsOlfotAmwM0jeiG3r3KclvcXmNSot3s41ZFJkA9ARlDaOFKM6CiXAnoZ--JguVEs1FujkWc23g5XeMUT_lpDTLNShJWVF5bpfC9-QwBsj2RnpdQu3p6n7kbB65ZfiH0PV9rQCy9H-Rj2JXODC904x_wiaYDaSq-YvcUfWf",
+    image: "https://images.unsplash.com/photo-1634546592231-15582fcc978a?auto=format&fit=crop&q=80&w=800",
     content: `
 The most common complaint we hear at our Coimbatore unit isn't about back pain—it's about heat. Many customers come to us desperate to replace a mattress they bought just months ago because it feels like sleeping on a radiator. 
 
@@ -68,7 +68,7 @@ If you aren't ready to replace your mattress just yet, try these tips:
     readTime: "3 min read",
     date: "28 Sep 2026",
     author: "Deep Nap Sleep Experts",
-    image: "https://lh3.googleusercontent.com/aida/AEtjO1VyBxylK-3YX6ydgNoyvEM6k3-IYwrftv2b1w8EZrMNWwbDHEkLstP3lfwBQYP1yub851HDJgdj69RnCc64OvsOlfotAmwM0jeiG3r3KclvcXmNSot3s41ZFJkA9ARlDaOFKM6CiXAnoZ--JguVEs1FujkWc23g5XeMUT_lpDTLNShJWVF5bpfC9-QwBsj2RnpdQu3p6n7kbB65ZfiH0PV9rQCy9H-Rj2JXODC904x_wiaYDaSq-YvcUfWf",
+    image: "https://images.unsplash.com/photo-1634546592231-15582fcc978a?auto=format&fit=crop&q=80&w=800",
     content: `
 In India, we love our carpenter-built beds. Teak wood frames, heavy storage boxes, and custom headboards are a staple of our homes. 
 
@@ -111,7 +111,7 @@ Once you have your dimensions, simply enter them into our Custom Size Builder, a
     readTime: "5 min read",
     date: "15 Sep 2026",
     author: "Deep Nap Sleep Experts",
-    image: "https://lh3.googleusercontent.com/aida/AEtjO1VyBxylK-3YX6ydgNoyvEM6k3-IYwrftv2b1w8EZrMNWwbDHEkLstP3lfwBQYP1yub851HDJgdj69RnCc64OvsOlfotAmwM0jeiG3r3KclvcXmNSot3s41ZFJkA9ARlDaOFKM6CiXAnoZ--JguVEs1FujkWc23g5XeMUT_lpDTLNShJWVF5bpfC9-QwBsj2RnpdQu3p6n7kbB65ZfiH0PV9rQCy9H-Rj2JXODC904x_wiaYDaSq-YvcUfWf",
+    image: "https://images.unsplash.com/photo-1634546592231-15582fcc978a?auto=format&fit=crop&q=80&w=800",
     content: `
 Walking into a mattress showroom today is overwhelming. You are bombarded with jargon: PU foam, HR foam, memory foam, rebonded foam, rubberised coir, and natural latex. 
 
@@ -153,7 +153,7 @@ If budget allows, **Natural Latex** is the winner. If you need something firmer 
     readTime: "3 min read",
     date: "02 Sep 2026",
     author: "Deep Nap Sleep Experts",
-    image: "https://lh3.googleusercontent.com/aida/AEtjO1VyBxylK-3YX6ydgNoyvEM6k3-IYwrftv2b1w8EZrMNWwbDHEkLstP3lfwBQYP1yub851HDJgdj69RnCc64OvsOlfotAmwM0jeiG3r3KclvcXmNSot3s41ZFJkA9ARlDaOFKM6CiXAnoZ--JguVEs1FujkWc23g5XeMUT_lpDTLNShJWVF5bpfC9-QwBsj2RnpdQu3p6n7kbB65ZfiH0PV9rQCy9H-Rj2JXODC904x_wiaYDaSq-YvcUfWf",
+    image: "https://images.unsplash.com/photo-1634546592231-15582fcc978a?auto=format&fit=crop&q=80&w=800",
     content: `
 "I want a medium mattress." 
 
@@ -196,7 +196,7 @@ Still unsure? Take our Mattress Finder Quiz to get a personalized recommendation
     readTime: "4 min read",
     date: "18 Aug 2026",
     author: "Deep Nap Sleep Experts",
-    image: "https://lh3.googleusercontent.com/aida/AEtjO1VyBxylK-3YX6ydgNoyvEM6k3-IYwrftv2b1w8EZrMNWwbDHEkLstP3lfwBQYP1yub851HDJgdj69RnCc64OvsOlfotAmwM0jeiG3r3KclvcXmNSot3s41ZFJkA9ARlDaOFKM6CiXAnoZ--JguVEs1FujkWc23g5XeMUT_lpDTLNShJWVF5bpfC9-QwBsj2RnpdQu3p6n7kbB65ZfiH0PV9rQCy9H-Rj2JXODC904x_wiaYDaSq-YvcUfWf",
+    image: "https://images.unsplash.com/photo-1634546592231-15582fcc978a?auto=format&fit=crop&q=80&w=800",
     content: `
 A quality mattress is an investment. But in a humid, tropical climate, that investment is constantly under attack from moisture, dust mites, and mildew.
 

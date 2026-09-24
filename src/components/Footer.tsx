@@ -9,19 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl pb-space-xl">
           <div className="space-y-space-md">
             <div className="flex items-center gap-space-xs">
-              <div className="relative h-8 w-8">
-                {/* 
-                  NOTE (2026 Brand Update):
-                  Placeholder logo. Replace with the new 3-layer wave SVG from the 2026 Brand Identity once available.
-                */}
-                <Image
-                  alt="Deep Nap Mattress Logo"
-                  className="object-contain brightness-0 invert"
-                  src="https://lh3.googleusercontent.com/aida/AEtjO1VyBxylK-3YX6ydgNoyvEM6k3-IYwrftv2b1w8EZrMNWwbDHEkLstP3lfwBQYP1yub851HDJgdj69RnCc64OvsOlfotAmwM0jeiG3r3KclvcXmNSot3s41ZFJkA9ARlDaOFKM6CiXAnoZ--JguVEs1FujkWc23g5XeMUT_lpDTLNShJWVF5bpfC9-QwBsj2RnpdQu3p6n7kbB65ZfiH0PV9rQCy9H-Rj2JXODC904x_wiaYDaSq-YvcUfWf"
-                  fill
-                />
-              </div>
-              <span className="font-headline-sm text-headline-sm text-surface-white tracking-tight">
+              <span className="font-headline-md text-headline-md text-surface-white tracking-tight font-bold">
                 Deep Nap
               </span>
             </div>

@@ -1,8 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import Image from "next/image";
 import Link from "next/link";
-import UtilityBar from "./UtilityBar";
 import { PrimaryButton, WhatsAppButton } from "./Buttons";
 import SearchOverlay from "./SearchOverlay";
 
@@ -12,7 +10,6 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 w-full z-50">
-      <UtilityBar />
       
       <div className="bg-surface/90 backdrop-blur-md border-b border-hairline shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
         <div className="h-20 max-w-[1280px] mx-auto px-gutter md:px-gutter-tablet lg:px-gutter-desktop flex items-center justify-between gap-space-md">
@@ -29,17 +26,14 @@ export default function Header() {
             </button>
 
             <Link href="/" className="flex items-center gap-space-md">
-              <div className="relative h-16 w-48 sm:w-64">
+              <div className="relative h-16 flex items-center">
                 {/* 
                   NOTE (2026 Brand Update):
-                  Placeholder logo. Replace with the new 3-layer wave SVG from the 2026 Brand Identity once available.
+                  Text placeholder. Replace with the new 3-layer wave SVG from the 2026 Brand Identity once available.
                 */}
-                <Image
-                  src="https://lh3.googleusercontent.com/aida/AEtjO1VyBxylK-3YX6ydgNoyvEM6k3-IYwrftv2b1w8EZrMNWwbDHEkLstP3lfwBQYP1yub851HDJgdj69RnCc64OvsOlfotAmwM0jeiG3r3KclvcXmNSot3s41ZFJkA9ARlDaOFKM6CiXAnoZ--JguVEs1FujkWc23g5XeMUT_lpDTLNShJWVF5bpfC9-QwBsj2RnpdQu3p6n7kbB65ZfiH0PV9rQCy9H-Rj2JXODC904x_wiaYDaSq-YvcUfWf"
-                  alt="Deep Nap Mattress Logo"
-                  fill
-                  className="object-contain object-left"
-                />
+                <span className="text-[32px] md:text-[36px] font-black text-primary tracking-tighter leading-none flex items-center">
+                  Deep Nap
+                </span>
               </div>
             </Link>
           </div>
@@ -75,7 +69,7 @@ export default function Header() {
             <div className="hidden sm:block">
               <WhatsAppButton />
             </div>
-            <Link href="/quote" className="inline-flex items-center justify-center font-label-nav font-medium h-[48px] rounded-full transition-colors bg-primary text-surface-white hover:bg-navy-deep px-5 py-2.5 text-sm">
+            <Link href="/quote" className="inline-flex items-center justify-center font-label-nav font-medium h-[42px] rounded-full transition-colors bg-primary text-surface-white hover:bg-navy-deep px-5 text-sm">
               Get a quote
             </Link>
           </div>

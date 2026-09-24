@@ -4,7 +4,7 @@ import { PrimaryButton } from "../Buttons";
 
 export default function ConsultationBanner() {
   return (
-    <section className="w-full bg-[#EFE5D7] py-16 md:py-24 px-gutter md:px-gutter-tablet lg:px-gutter-desktop">
+    <section className="w-full bg-surface py-16 md:py-24 px-gutter md:px-gutter-tablet lg:px-gutter-desktop">
       <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
         
         {/* Left 45% (5 cols) */}

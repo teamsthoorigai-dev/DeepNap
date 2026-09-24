@@ -12,7 +12,7 @@ export default function ManufacturingPage() {
         {/* Placeholder for real factory wide shot */}
         <div className="absolute inset-0 z-0">
           <Image 
-            src="https://lh3.googleusercontent.com/aida/AEtjO1VyBxylK-3YX6ydgNoyvEM6k3-IYwrftv2b1w8EZrMNWwbDHEkLstP3lfwBQYP1yub851HDJgdj69RnCc64OvsOlfotAmwM0jeiG3r3KclvcXmNSot3s41ZFJkA9ARlDaOFKM6CiXAnoZ--JguVEs1FujkWc23g5XeMUT_lpDTLNShJWVF5bpfC9-QwBsj2RnpdQu3p6n7kbB65ZfiH0PV9rQCy9H-Rj2JXODC904x_wiaYDaSq-YvcUfWf" 
+            src="https://images.unsplash.com/photo-1634546592231-15582fcc978a?auto=format&fit=crop&q=80&w=800" 
             alt="Deep Nap Manufacturing Unit" 
             fill 
             className="object-cover opacity-30" 
@@ -48,14 +48,14 @@ export default function ManufacturingPage() {
               </p>
             </div>
             <div className="order-1 lg:order-2 relative aspect-[4/3] rounded-2xl overflow-hidden bg-[#EFE5D7]">
-              <Image src="https://lh3.googleusercontent.com/aida/AEtjO1VyBxylK-3YX6ydgNoyvEM6k3-IYwrftv2b1w8EZrMNWwbDHEkLstP3lfwBQYP1yub851HDJgdj69RnCc64OvsOlfotAmwM0jeiG3r3KclvcXmNSot3s41ZFJkA9ARlDaOFKM6CiXAnoZ--JguVEs1FujkWc23g5XeMUT_lpDTLNShJWVF5bpfC9-QwBsj2RnpdQu3p6n7kbB65ZfiH0PV9rQCy9H-Rj2JXODC904x_wiaYDaSq-YvcUfWf" alt="Materials In" fill className="object-cover" />
+              <Image src="https://images.unsplash.com/photo-1634546592231-15582fcc978a?auto=format&fit=crop&q=80&w=800" alt="Materials In" fill className="object-cover" />
             </div>
           </div>
 
           {/* Step 2 */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-[#EFE5D7]">
-              <Image src="https://lh3.googleusercontent.com/aida/AEtjO1VyBxylK-3YX6ydgNoyvEM6k3-IYwrftv2b1w8EZrMNWwbDHEkLstP3lfwBQYP1yub851HDJgdj69RnCc64OvsOlfotAmwM0jeiG3r3KclvcXmNSot3s41ZFJkA9ARlDaOFKM6CiXAnoZ--JguVEs1FujkWc23g5XeMUT_lpDTLNShJWVF5bpfC9-QwBsj2RnpdQu3p6n7kbB65ZfiH0PV9rQCy9H-Rj2JXODC904x_wiaYDaSq-YvcUfWf" alt="Cutting" fill className="object-cover" />
+              <Image src="https://images.unsplash.com/photo-1634546592231-15582fcc978a?auto=format&fit=crop&q=80&w=800" alt="Cutting" fill className="object-cover" />
             </div>
             <div>
               <span className="font-headline-sm text-[#DCA544] mb-4 block">02</span>
@@ -76,14 +76,14 @@ export default function ManufacturingPage() {
               </p>
             </div>
             <div className="order-1 lg:order-2 relative aspect-[4/3] rounded-2xl overflow-hidden bg-[#EFE5D7]">
-              <Image src="https://lh3.googleusercontent.com/aida/AEtjO1VyBxylK-3YX6ydgNoyvEM6k3-IYwrftv2b1w8EZrMNWwbDHEkLstP3lfwBQYP1yub851HDJgdj69RnCc64OvsOlfotAmwM0jeiG3r3KclvcXmNSot3s41ZFJkA9ARlDaOFKM6CiXAnoZ--JguVEs1FujkWc23g5XeMUT_lpDTLNShJWVF5bpfC9-QwBsj2RnpdQu3p6n7kbB65ZfiH0PV9rQCy9H-Rj2JXODC904x_wiaYDaSq-YvcUfWf" alt="Layering" fill className="object-cover" />
+              <Image src="https://images.unsplash.com/photo-1634546592231-15582fcc978a?auto=format&fit=crop&q=80&w=800" alt="Layering" fill className="object-cover" />
             </div>
           </div>
 
           {/* Step 4 */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-[#EFE5D7]">
-              <Image src="https://lh3.googleusercontent.com/aida/AEtjO1VyBxylK-3YX6ydgNoyvEM6k3-IYwrftv2b1w8EZrMNWwbDHEkLstP3lfwBQYP1yub851HDJgdj69RnCc64OvsOlfotAmwM0jeiG3r3KclvcXmNSot3s41ZFJkA9ARlDaOFKM6CiXAnoZ--JguVEs1FujkWc23g5XeMUT_lpDTLNShJWVF5bpfC9-QwBsj2RnpdQu3p6n7kbB65ZfiH0PV9rQCy9H-Rj2JXODC904x_wiaYDaSq-YvcUfWf" alt="Quilting and Stitching" fill className="object-cover" />
+              <Image src="https://images.unsplash.com/photo-1634546592231-15582fcc978a?auto=format&fit=crop&q=80&w=800" alt="Quilting and Stitching" fill className="object-cover" />
             </div>
             <div>
               <span className="font-headline-sm text-[#DCA544] mb-4 block">04</span>
@@ -104,7 +104,7 @@ export default function ManufacturingPage() {
               </p>
             </div>
             <div className="order-1 lg:order-2 relative aspect-[4/3] rounded-2xl overflow-hidden bg-[#EFE5D7]">
-              <Image src="https://lh3.googleusercontent.com/aida/AEtjO1VyBxylK-3YX6ydgNoyvEM6k3-IYwrftv2b1w8EZrMNWwbDHEkLstP3lfwBQYP1yub851HDJgdj69RnCc64OvsOlfotAmwM0jeiG3r3KclvcXmNSot3s41ZFJkA9ARlDaOFKM6CiXAnoZ--JguVEs1FujkWc23g5XeMUT_lpDTLNShJWVF5bpfC9-QwBsj2RnpdQu3p6n7kbB65ZfiH0PV9rQCy9H-Rj2JXODC904x_wiaYDaSq-YvcUfWf" alt="Finishing" fill className="object-cover" />
+              <Image src="https://images.unsplash.com/photo-1634546592231-15582fcc978a?auto=format&fit=crop&q=80&w=800" alt="Finishing" fill className="object-cover" />
             </div>
           </div>
 
@@ -127,7 +127,7 @@ export default function ManufacturingPage() {
             {/* Material Card 1 */}
             <div className="bg-surface-white rounded-2xl overflow-hidden border border-hairline hover:border-primary/30 transition-colors">
               <div className="relative h-48 w-full bg-[#EFE5D7]">
-                <Image src="https://lh3.googleusercontent.com/aida/AEtjO1VyBxylK-3YX6ydgNoyvEM6k3-IYwrftv2b1w8EZrMNWwbDHEkLstP3lfwBQYP1yub851HDJgdj69RnCc64OvsOlfotAmwM0jeiG3r3KclvcXmNSot3s41ZFJkA9ARlDaOFKM6CiXAnoZ--JguVEs1FujkWc23g5XeMUT_lpDTLNShJWVF5bpfC9-QwBsj2RnpdQu3p6n7kbB65ZfiH0PV9rQCy9H-Rj2JXODC904x_wiaYDaSq-YvcUfWf" alt="Rubberised Coir" fill className="object-cover mix-blend-multiply" />
+                <Image src="https://images.unsplash.com/photo-1634546592231-15582fcc978a?auto=format&fit=crop&q=80&w=800" alt="Rubberised Coir" fill className="object-cover mix-blend-multiply" />
               </div>
               <div className="p-6 md:p-8">
                 <h3 className="font-title-card text-primary mb-1">Rubberised Coir (100D)</h3>
@@ -141,7 +141,7 @@ export default function ManufacturingPage() {
             {/* Material Card 2 */}
             <div className="bg-surface-white rounded-2xl overflow-hidden border border-hairline hover:border-primary/30 transition-colors">
               <div className="relative h-48 w-full bg-[#EFE5D7]">
-                <Image src="https://lh3.googleusercontent.com/aida/AEtjO1VyBxylK-3YX6ydgNoyvEM6k3-IYwrftv2b1w8EZrMNWwbDHEkLstP3lfwBQYP1yub851HDJgdj69RnCc64OvsOlfotAmwM0jeiG3r3KclvcXmNSot3s41ZFJkA9ARlDaOFKM6CiXAnoZ--JguVEs1FujkWc23g5XeMUT_lpDTLNShJWVF5bpfC9-QwBsj2RnpdQu3p6n7kbB65ZfiH0PV9rQCy9H-Rj2JXODC904x_wiaYDaSq-YvcUfWf" alt="Natural Latex" fill className="object-cover mix-blend-multiply" />
+                <Image src="https://images.unsplash.com/photo-1634546592231-15582fcc978a?auto=format&fit=crop&q=80&w=800" alt="Natural Latex" fill className="object-cover mix-blend-multiply" />
               </div>
               <div className="p-6 md:p-8">
                 <h3 className="font-title-card text-primary mb-1">Natural Pin-Core Latex</h3>
@@ -155,7 +155,7 @@ export default function ManufacturingPage() {
             {/* Material Card 3 */}
             <div className="bg-surface-white rounded-2xl overflow-hidden border border-hairline hover:border-primary/30 transition-colors">
               <div className="relative h-48 w-full bg-[#EFE5D7]">
-                <Image src="https://lh3.googleusercontent.com/aida/AEtjO1VyBxylK-3YX6ydgNoyvEM6k3-IYwrftv2b1w8EZrMNWwbDHEkLstP3lfwBQYP1yub851HDJgdj69RnCc64OvsOlfotAmwM0jeiG3r3KclvcXmNSot3s41ZFJkA9ARlDaOFKM6CiXAnoZ--JguVEs1FujkWc23g5XeMUT_lpDTLNShJWVF5bpfC9-QwBsj2RnpdQu3p6n7kbB65ZfiH0PV9rQCy9H-Rj2JXODC904x_wiaYDaSq-YvcUfWf" alt="HR Foam" fill className="object-cover mix-blend-multiply" />
+                <Image src="https://images.unsplash.com/photo-1634546592231-15582fcc978a?auto=format&fit=crop&q=80&w=800" alt="HR Foam" fill className="object-cover mix-blend-multiply" />
               </div>
               <div className="p-6 md:p-8">
                 <h3 className="font-title-card text-primary mb-1">High-Resilience (HR) Foam</h3>
@@ -169,7 +169,7 @@ export default function ManufacturingPage() {
             {/* Material Card 4 */}
             <div className="bg-surface-white rounded-2xl overflow-hidden border border-hairline hover:border-primary/30 transition-colors">
               <div className="relative h-48 w-full bg-[#EFE5D7]">
-                <Image src="https://lh3.googleusercontent.com/aida/AEtjO1VyBxylK-3YX6ydgNoyvEM6k3-IYwrftv2b1w8EZrMNWwbDHEkLstP3lfwBQYP1yub851HDJgdj69RnCc64OvsOlfotAmwM0jeiG3r3KclvcXmNSot3s41ZFJkA9ARlDaOFKM6CiXAnoZ--JguVEs1FujkWc23g5XeMUT_lpDTLNShJWVF5bpfC9-QwBsj2RnpdQu3p6n7kbB65ZfiH0PV9rQCy9H-Rj2JXODC904x_wiaYDaSq-YvcUfWf" alt="Memory Foam" fill className="object-cover mix-blend-multiply" />
+                <Image src="https://images.unsplash.com/photo-1634546592231-15582fcc978a?auto=format&fit=crop&q=80&w=800" alt="Memory Foam" fill className="object-cover mix-blend-multiply" />
               </div>
               <div className="p-6 md:p-8">
                 <h3 className="font-title-card text-primary mb-1">Visco-Elastic Memory Foam</h3>
@@ -184,7 +184,7 @@ export default function ManufacturingPage() {
             <div className="bg-surface-white rounded-2xl overflow-hidden border border-hairline hover:border-primary/30 transition-colors md:col-span-2 lg:col-span-2">
               <div className="flex flex-col md:flex-row h-full">
                 <div className="relative h-48 md:h-full md:w-2/5 bg-[#EFE5D7] border-b md:border-b-0 md:border-r border-hairline">
-                  <Image src="https://lh3.googleusercontent.com/aida/AEtjO1VyBxylK-3YX6ydgNoyvEM6k3-IYwrftv2b1w8EZrMNWwbDHEkLstP3lfwBQYP1yub851HDJgdj69RnCc64OvsOlfotAmwM0jeiG3r3KclvcXmNSot3s41ZFJkA9ARlDaOFKM6CiXAnoZ--JguVEs1FujkWc23g5XeMUT_lpDTLNShJWVF5bpfC9-QwBsj2RnpdQu3p6n7kbB65ZfiH0PV9rQCy9H-Rj2JXODC904x_wiaYDaSq-YvcUfWf" alt="Pocket Springs" fill className="object-cover mix-blend-multiply" />
+                  <Image src="https://images.unsplash.com/photo-1634546592231-15582fcc978a?auto=format&fit=crop&q=80&w=800" alt="Pocket Springs" fill className="object-cover mix-blend-multiply" />
                 </div>
                 <div className="p-6 md:p-8 md:w-3/5 flex flex-col justify-center">
                   <h3 className="font-title-card text-primary mb-1">Individually Wrapped Pocket Springs</h3>

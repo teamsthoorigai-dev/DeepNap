@@ -4,7 +4,7 @@ import { PrimaryButton } from "../Buttons";
 
 export default function VisitUs() {
   return (
-    <section className="w-full bg-[#EFE5D7] py-16 md:py-24 px-gutter md:px-gutter-tablet lg:px-gutter-desktop">
+    <section className="w-full bg-surface py-16 md:py-24 px-gutter md:px-gutter-tablet lg:px-gutter-desktop">
       <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-space-xl">
         
         {/* Left info (6 cols) */}
@@ -26,7 +26,7 @@ export default function VisitUs() {
             <div className="flex items-center gap-3">
               <span className="material-symbols-outlined text-[#DCA544] text-[20px] shrink-0">schedule</span>
               <div>
-                <p className="font-body-regular text-body-regular text-primary font-medium">Open 9am – 10pm, every day</p>
+                <p className="font-body-regular text-body-regular text-primary font-medium">Open 9am - 10pm, every day</p>
               </div>
             </div>
             
@@ -80,12 +80,6 @@ export default function VisitUs() {
                 </div>
               </div>
             </div>
-          </div>
-          
-          <div className="flex justify-end">
-            <PrimaryButton href="/visit" className="w-full sm:w-auto">
-              Book a store visit
-            </PrimaryButton>
           </div>
         </div>
 

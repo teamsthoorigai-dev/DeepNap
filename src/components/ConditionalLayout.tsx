@@ -22,8 +22,8 @@ export default function ConditionalLayout({ children }: { children: React.ReactN
   return (
     <>
       <Header />
-      {/* pt-[116px] offsets the fixed Header (h-20 = 80px + utility bar 36px = 116px) */}
-      <div className="flex-grow pt-[116px]">
+      {/* pt-20 offsets the fixed Header (h-20 = 80px) */}
+      <div className="flex-grow pt-20">
         {children}
       </div>
       <Footer />

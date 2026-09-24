@@ -133,7 +133,7 @@ ${notes || "None"}
           <div className="pt-4 border-t border-hairline">
             <button
               type="submit"
-              className="w-full h-14 bg-primary text-surface-white rounded-lg font-label-nav font-semibold hover:bg-navy-deep transition-all shadow-sm"
+              className="w-full h-14 bg-primary text-surface-white rounded-full font-label-nav font-semibold hover:bg-navy-deep transition-all shadow-sm"
             >
               Send enquiry
             </button>

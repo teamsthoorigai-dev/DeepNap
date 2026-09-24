@@ -8,7 +8,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 const PrimaryButton = ({ href, children, className = "", ...props }: ButtonProps) => {
-  const baseClasses = "inline-flex items-center justify-center h-12 px-7 rounded-lg bg-primary-container text-surface-white font-label-nav text-label-nav font-semibold hover:bg-navy-deep transition-all shadow-sm";
+  const baseClasses = "inline-flex items-center justify-center h-12 px-7 rounded-full bg-primary-container text-surface-white font-label-nav text-label-nav font-semibold hover:bg-navy-deep transition-all shadow-sm";
   const combinedClasses = `${baseClasses} ${className}`;
 
   if (href) {
@@ -27,7 +27,7 @@ const PrimaryButton = ({ href, children, className = "", ...props }: ButtonProps
 };
 
 const SecondaryButton = ({ href, children, className = "", ...props }: ButtonProps) => {
-  const baseClasses = "inline-flex items-center justify-center h-12 px-6 rounded-lg bg-transparent text-primary-container font-label-nav text-label-nav font-semibold border-[1.5px] border-primary-container hover:bg-primary-container/5 transition-all";
+  const baseClasses = "inline-flex items-center justify-center h-12 px-6 rounded-full bg-transparent text-primary-container font-label-nav text-label-nav font-semibold border-[1.5px] border-primary-container hover:bg-primary-container/5 transition-all";
   const combinedClasses = `${baseClasses} ${className}`;
 
   if (href) {
@@ -58,7 +58,7 @@ const WhatsAppButton = ({
   className = "", 
   ...props 
 }: WhatsAppButtonProps) => {
-  const baseClasses = "inline-flex items-center gap-2 border-[1.5px] border-primary-container bg-transparent text-primary-container px-4 py-2 rounded-full font-label-nav text-label-nav hover:bg-primary-container hover:text-surface-white transition-all";
+  const baseClasses = "inline-flex items-center justify-center gap-2 bg-[#25D366] text-surface-white px-5 h-[42px] rounded-full font-label-nav text-label-nav font-medium hover:bg-[#20b958] transition-all shadow-sm";
   const combinedClasses = `${baseClasses} ${className}`;
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
@@ -70,7 +70,7 @@ const WhatsAppButton = ({
       rel="noopener noreferrer"
       {...(props as any)}
     >
-      <span className="w-2 h-2 rounded-full bg-tertiary-fixed-dim shrink-0"></span>
+      <span className="material-symbols-outlined text-[18px]">chat</span>
       {children || "WhatsApp"}
     </a>
   );

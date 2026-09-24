@@ -1,14 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { PrimaryButton } from "../Buttons";
+import { PrimaryButton, SecondaryButton } from "../Buttons";
 
 export default function SupportCards() {
   return (
-    <section className="w-full bg-surface py-16 md:py-24 px-gutter md:px-gutter-tablet lg:px-gutter-desktop border-b border-hairline">
+    <section className="w-full bg-surface/50 py-16 md:py-24 px-gutter md:px-gutter-tablet lg:px-gutter-desktop border-b border-hairline">
       <div className="max-w-[1280px] mx-auto flex flex-col space-y-12">
         {/* Heading row with Quiz action */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
+        <div className="flex flex-col md:flex-row md:items-start justify-between gap-6">
           <div>
             <h2 className="font-headline-lg text-headline-lg text-primary tracking-tight">
               Find the right support
@@ -17,7 +17,7 @@ export default function SupportCards() {
               Answer four questions about how you sleep, we shortlist from 13 types.
             </p>
           </div>
-          <PrimaryButton href="/quiz" className="shrink-0">
+          <PrimaryButton href="/quiz" className="shrink-0 mt-1">
             Start the quiz
           </PrimaryButton>
         </div>
@@ -26,7 +26,7 @@ export default function SupportCards() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
           
           {/* Soft Card */}
-          <div className="bg-surface-container-low rounded-xl border border-hairline border-t-4 border-t-hairline p-6 flex flex-col justify-between hover:shadow-md transition-shadow">
+          <div className="bg-surface-white shadow-md rounded-xl border border-hairline border-t-4 border-t-hairline p-6 flex flex-col justify-between transition-shadow">
             <div className="space-y-4">
               <div className="flex justify-between items-baseline">
                 <h3 className="font-title-card text-title-card text-primary font-bold">Soft</h3>
@@ -50,15 +50,15 @@ export default function SupportCards() {
               </div>
             </div>
             <div className="pt-6 mt-6 border-t border-hairline">
-              <Link href="/mattresses?firmness=Soft" className="font-label-nav text-label-nav text-primary font-semibold hover:underline">
+              <SecondaryButton href="/mattresses?firmness=Soft" className="w-full">
                 View Soft Mattresses &rarr;
-              </Link>
+              </SecondaryButton>
             </div>
           </div>
 
           {/* Medium Firm Card (Featured) */}
           <div className="bg-surface-white rounded-xl border border-hairline border-t-4 border-t-[#DCA544] p-6 flex flex-col justify-between shadow-md relative">
-            <div className="absolute -top-3 right-6 bg-[#142C47] text-surface-white px-3 py-0.5 rounded-full text-caption font-semibold tracking-wider uppercase">
+            <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-[#142C47] text-surface-white px-6 py-1.5 rounded-full text-caption font-semibold tracking-wider uppercase whitespace-nowrap">
               Most Chosen
             </div>
             <div className="space-y-4">
@@ -84,14 +84,14 @@ export default function SupportCards() {
               </div>
             </div>
             <div className="pt-6 mt-6 border-t border-hairline">
-              <Link href="/mattresses?firmness=Medium" className="font-label-nav text-label-nav text-primary font-semibold hover:underline">
+              <SecondaryButton href="/mattresses?firmness=Medium" className="w-full">
                 View Medium Firm Models &rarr;
-              </Link>
+              </SecondaryButton>
             </div>
           </div>
 
           {/* Firm Card */}
-          <div className="bg-surface-container-low rounded-xl border border-hairline border-t-4 border-t-hairline p-6 flex flex-col justify-between hover:shadow-md transition-shadow">
+          <div className="bg-surface-white shadow-md rounded-xl border border-hairline border-t-4 border-t-hairline p-6 flex flex-col justify-between transition-shadow">
             <div className="space-y-4">
               <div className="flex justify-between items-baseline">
                 <h3 className="font-title-card text-title-card text-primary font-bold">Firm</h3>
@@ -115,9 +115,9 @@ export default function SupportCards() {
               </div>
             </div>
             <div className="pt-6 mt-6 border-t border-hairline">
-              <Link href="/mattresses?type=Orthopaedic" className="font-label-nav text-label-nav text-primary font-semibold hover:underline">
+              <SecondaryButton href="/mattresses?type=Orthopaedic" className="w-full">
                 View Orthopaedic Models &rarr;
-              </Link>
+              </SecondaryButton>
             </div>
           </div>
 

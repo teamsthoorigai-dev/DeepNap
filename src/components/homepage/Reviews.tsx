@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "next/link";
+import Link from "next/link";`nimport { SecondaryButton } from "../Buttons";
 
 export default function Reviews() {
   return (
@@ -49,14 +49,13 @@ export default function Reviews() {
         </div>
 
         <div>
-          <a
-            className="inline-flex items-center gap-1.5 font-label-nav text-label-nav text-primary hover:text-navy-deep font-semibold underline underline-offset-4 decoration-hairline hover:decoration-primary"
+          <SecondaryButton
             href="https://maps.google.com"
             rel="noopener noreferrer"
             target="_blank"
           >
-            View our Google listing & reviews →
-          </a>
+            View our Google listing & reviews &rarr;
+          </SecondaryButton>
         </div>
       </div>
     </section>

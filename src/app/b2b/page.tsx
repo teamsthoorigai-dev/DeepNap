@@ -9,7 +9,7 @@ export default function B2BPage() {
       
       {/* SECTION 1 - HERO */}
       <section className="w-full bg-navy-deep text-surface-white pt-16 lg:pt-24 pb-20 px-gutter md:px-gutter-tablet lg:px-gutter-desktop relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10 bg-[url('https://lh3.googleusercontent.com/aida/AEtjO1VyBxylK-3YX6ydgNoyvEM6k3-IYwrftv2b1w8EZrMNWwbDHEkLstP3lfwBQYP1yub851HDJgdj69RnCc64OvsOlfotAmwM0jeiG3r3KclvcXmNSot3s41ZFJkA9ARlDaOFKM6CiXAnoZ--JguVEs1FujkWc23g5XeMUT_lpDTLNShJWVF5bpfC9-QwBsj2RnpdQu3p6n7kbB65ZfiH0PV9rQCy9H-Rj2JXODC904x_wiaYDaSq-YvcUfWf')] bg-cover bg-center"></div>
+        <div className="absolute inset-0 opacity-10 bg-[url('https://images.unsplash.com/photo-1634546592231-15582fcc978a?auto=format&fit=crop&q=80&w=800')] bg-cover bg-center"></div>
         <div className="max-w-[1280px] mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-7">
             <h1 className="font-display-lg text-[40px] md:text-[52px] leading-[1.1] tracking-tight mb-6">

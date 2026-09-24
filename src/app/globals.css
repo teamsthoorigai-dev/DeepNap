@@ -169,7 +169,7 @@
   }
   body {
     overscroll-behavior: none;
-    @apply bg-surface font-body-regular text-body-regular text-on-surface antialiased;
+    @apply bg-surface-white font-body-regular text-body-regular text-on-surface antialiased;
   }
   main > :first-child {
     margin-top: 0 !important;

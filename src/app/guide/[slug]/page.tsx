@@ -154,7 +154,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
           {/* PRODUCT RECOMMENDATION BLOCK */}
           <div className="bg-surface-white p-8 rounded-2xl border border-hairline shadow-sm flex flex-col sm:flex-row gap-8 items-center mb-16">
             <div className="w-32 h-32 bg-[#EFE5D7] rounded-xl relative flex-shrink-0">
-              <Image src="https://lh3.googleusercontent.com/aida/AEtjO1VyBxylK-3YX6ydgNoyvEM6k3-IYwrftv2b1w8EZrMNWwbDHEkLstP3lfwBQYP1yub851HDJgdj69RnCc64OvsOlfotAmwM0jeiG3r3KclvcXmNSot3s41ZFJkA9ARlDaOFKM6CiXAnoZ--JguVEs1FujkWc23g5XeMUT_lpDTLNShJWVF5bpfC9-QwBsj2RnpdQu3p6n7kbB65ZfiH0PV9rQCy9H-Rj2JXODC904x_wiaYDaSq-YvcUfWf" alt="Mattress" fill className="object-cover rounded-xl" />
+              <Image src="https://images.unsplash.com/photo-1634546592231-15582fcc978a?auto=format&fit=crop&q=80&w=800" alt="Mattress" fill className="object-cover rounded-xl" />
             </div>
             <div>
               <div className="font-label-nav text-xs text-[#DCA544] uppercase tracking-wider mb-2">Recommended for you</div>

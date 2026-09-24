@@ -89,9 +89,9 @@ export default function Hero() {
               <span className="font-title-card text-title-card text-primary font-semibold">
                 Enquire for price
               </span>
-              <Link href="/compare" className="font-label-nav text-label-nav text-primary hover:text-navy-deep font-semibold underline underline-offset-4 decoration-hairline hover:decoration-primary">
+              <SecondaryButton href="/compare" className="!h-9 !px-4 !text-sm">
                 Compare
-              </Link>
+              </SecondaryButton>
             </div>
           </div>
         </div>

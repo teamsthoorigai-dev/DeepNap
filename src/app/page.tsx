@@ -1,3 +1,4 @@
+import HeroCarousel from "@/components/homepage/HeroCarousel";
 import Hero from "@/components/homepage/Hero";
 import TrustStrip from "@/components/TrustStrip";
 import SupportCards from "@/components/homepage/SupportCards";
@@ -11,10 +12,11 @@ import VisitUs from "@/components/homepage/VisitUs";
 
 export default function Home() {
   return (
-    <main className="w-full bg-surface min-h-[calc(100vh-80px)]">
+    <main className="w-full bg-surface-white min-h-[calc(100vh-80px)]">
       <div className="flex flex-col w-full">
-        <Hero />
+        <HeroCarousel />
         <TrustStrip />
+        <Hero />
         <CustomSizeBuilder />
         <SupportCards />
         <ProductRange />

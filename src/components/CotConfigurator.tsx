@@ -155,7 +155,7 @@ export default function CotConfigurator({ cot }: { cot: DiwanCotProduct }) {
         </div>
         <div className="flex gap-4 items-center">
           <div className="relative w-20 h-20 rounded-lg overflow-hidden border border-hairline flex-shrink-0">
-            <Image src="/images/placeholder-mattress.jpg" alt="Natural Latex Mattress" fill className="object-cover" />
+            <Image src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=800" alt="Natural Latex Mattress" fill className="object-cover" />
           </div>
           <div>
             <h5 className="font-title-card text-primary mb-1">Natural Latex & Pocket Spring</h5>

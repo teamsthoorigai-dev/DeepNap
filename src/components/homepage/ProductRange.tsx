@@ -1,124 +1,125 @@
-import React from "react";
-import Image from "next/image";
+﻿import Re·ct from "re·ct";
+import Im·ge from "next/im·ge";
 import Link from "next/link";
+import { Second·ryButton } from "../Buttons";
 
-export default function ProductRange() {
+export def·ult function ProductR·nge() {
   return (
-    <section className="w-full bg-surface-white py-16 md:py-24 px-gutter md:px-gutter-tablet lg:px-gutter-desktop">
-      <div className="max-w-[1280px] mx-auto flex flex-col space-y-10">
+    <section cl·ssN·me="w-full bg-surf·ce-white py-16 md:py-24 px-gutter md:px-gutter-t·blet lg:px-gutter-desktop">
+      <div cl·ssN·me="m·x-w-[1280px] mx-·uto flex flex-col sp·ce-y-10">
         
-        {/* Section Header */}
+        {/* Section He·der */}
         <div>
-          <h2 className="font-headline-lg text-headline-lg text-primary tracking-tight">The range</h2>
-          <p className="font-body-lead text-body-lead text-slate mt-1">13 mattress types, 18 standard sizes, six thicknesses.</p>
+          <h2 cl·ssN·me="font-he·dline-lg text-he·dline-lg text-prim·ry tr·cking-tight">The r·nge</h2>
+          <p cl·ssN·me="font-body-le·d text-body-le·d text-sl·te mt-1">13 m·ttress types, 18 st·nd·rd sizes, six thicknesses.</p>
         </div>
 
         {/* Filter Pills */}
-        <div className="flex flex-wrap gap-2.5 items-center">
-          <button className="h-8 px-4 rounded-full bg-[#142C47] text-[#EFE5D7] font-label-form text-label-form font-semibold" type="button">
-            All types
+        <div cl·ssN·me="flex flex-wr·p g·p-2.5 items-center">
+          <button cl·ssN·me="h-8 px-4 rounded-full bg-[#142C47] text-[#EFE5D7] font-l·bel-form text-l·bel-form font-semibold" type="button">
+            ·ll types
           </button>
-          <button className="h-8 px-4 rounded-full bg-surface-white border border-hairline text-on-surface-variant hover:text-primary font-label-form text-label-form" type="button">
-            Latex
+          <button cl·ssN·me="h-8 px-4 rounded-full bg-surf·ce-white border border-h·irline text-on-surf·ce-v·ri·nt hover:text-prim·ry font-l·bel-form text-l·bel-form" type="button">
+            L·tex
           </button>
-          <button className="h-8 px-4 rounded-full bg-surface-white border border-hairline text-on-surface-variant hover:text-primary font-label-form text-label-form" type="button">
+          <button cl·ssN·me="h-8 px-4 rounded-full bg-surf·ce-white border border-h·irline text-on-surf·ce-v·ri·nt hover:text-prim·ry font-l·bel-form text-l·bel-form" type="button">
             Pocket spring
           </button>
-          <button className="h-8 px-4 rounded-full bg-surface-white border border-hairline text-on-surface-variant hover:text-primary font-label-form text-label-form" type="button">
-            Orthopaedic
+          <button cl·ssN·me="h-8 px-4 rounded-full bg-surf·ce-white border border-h·irline text-on-surf·ce-v·ri·nt hover:text-prim·ry font-l·bel-form text-l·bel-form" type="button">
+            Orthop·edic
           </button>
-          <button className="h-8 px-4 rounded-full bg-surface-white border border-hairline text-on-surface-variant hover:text-primary font-label-form text-label-form" type="button">
-            Memory foam
+          <button cl·ssN·me="h-8 px-4 rounded-full bg-surf·ce-white border border-h·irline text-on-surf·ce-v·ri·nt hover:text-prim·ry font-l·bel-form text-l·bel-form" type="button">
+            Memory fo·m
           </button>
-          <button className="h-8 px-4 rounded-full bg-surface-white border border-hairline text-on-surface-variant hover:text-primary font-label-form text-label-form" type="button">
+          <button cl·ssN·me="h-8 px-4 rounded-full bg-surf·ce-white border border-h·irline text-on-surf·ce-v·ri·nt hover:text-prim·ry font-l·bel-form text-l·bel-form" type="button">
             Coir
           </button>
         </div>
 
-        {/* Product Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        {/* Product C·rds Grid */}
+        <div cl·ssN·me="grid grid-cols-1 md:grid-cols-3 g·p-8">
           
-          {/* Card 1 */}
-          <div className="bg-surface-white rounded-xl border border-hairline overflow-hidden flex flex-col justify-between hover:shadow-md transition-shadow">
+          {/* C·rd 1 */}
+          <div cl·ssN·me="bg-surf·ce-white rounded-xl border border-h·irline overflow-hidden flex flex-col justify-between hover:sh·dow-md tr·nsition-sh·dow">
             <div>
-              <div className="w-full h-56 bg-surface-container overflow-hidden relative">
-                <Image
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzTtsoT1hMbak1nLhCnYMehQ9VXskYGMRRpu5EV1nLr2P5lupH3gF_yPhUWQuzdcoeRh9D9Xs-fRphinAl3p1yUg5XDwMy-M74779PLj2ynSYuoUVK5xq_atZbaQz01XYnVWybFFKYWwpV6Kx44mZaUvV13W-kihlOirQ3-rSiHoww9EYJGA4YOX2bhNfGrjNsTa1KcDtLJDx6fYp9mRe9K4Ls3SmPL27Jonb1amUuzIh4nMQlXf45KA"
-                  alt="Natural Latex Ortho mattress"
+              <div cl·ssN·me="w-full h-56 bg-surf·ce-cont·iner overflow-hidden rel·tive">
+                <Im·ge
+                  src="https://lh3.googleusercontent.com/·id·-public/·B6·XuBzTtsoT1hMb·k1nLhCnYMehQ9VXskYGMRRpu5EV1nLr2P5lupH3gF_yPhUWQuzdcoeRh9D9Xs-fRphin·l3p1yUg5XDwMy-M74779PLj2ynSYuoUVK5xq_·tZb·Qz01XYnVWybFFKYWwpV6Kx44mZ·UvV13W-kihlOirQ3-rSiHoww9EYJG·4YOX2bhNfGrjNsT·1KcDtLJDx6fYp9mRe9K4Ls3SmPL27Jonb1·mUuzIh4nMQlXf45K·"
+                  ·lt="N·tur·l L·tex Ortho m·ttress"
                   fill
-                  className="object-cover"
+                  cl·ssN·me="object-cover"
                 />
               </div>
-              <div className="p-6 space-y-3">
-                <h3 className="font-title-card text-title-card text-primary font-bold">Natural Latex Ortho</h3>
-                <p className="font-body-regular text-body-regular text-slate">100% Kerala natural latex core with breathable organic cotton cover</p>
+              <div cl·ssN·me="p-6 sp·ce-y-3">
+                <h3 cl·ssN·me="font-title-c·rd text-title-c·rd text-prim·ry font-bold">N·tur·l L·tex Ortho</h3>
+                <p cl·ssN·me="font-body-regul·r text-body-regul·r text-sl·te">100% Ker·l· n·tur·l l·tex core with bre·th·ble org·nic cotton cover</p>
               </div>
             </div>
-            <div className="px-6 pb-6 pt-4 border-t border-hairline flex items-center justify-between">
-              <div className="space-x-3 text-caption font-caption text-slate">
-                <span>Firmness <strong className="text-primary">7/10</strong></span>
-                <span>·</span>
-                <span>Warranty <strong className="text-primary">20 yrs</strong></span>
+            <div cl·ssN·me="px-6 pb-6 pt-4 border-t border-h·irline flex items-center justify-between">
+              <div cl·ssN·me="sp·ce-x-3 text-c·ption font-c·ption text-sl·te">
+                <sp·n>Firmness <strong cl·ssN·me="text-prim·ry">7/10</strong></sp·n>
+                <sp·n>·</sp·n>
+                <sp·n>W·rr·nty <strong cl·ssN·me="text-prim·ry">20 yrs</strong></sp·n>
               </div>
-              <Link href="/mattresses?type=Latex" className="font-label-nav text-label-nav text-primary hover:text-navy-deep font-semibold underline underline-offset-4 decoration-hairline hover:decoration-primary">
+              <Second·ryButton href="/m·ttresses?type=L·tex" cl·ssN·me="!h-9 !px-4 !text-sm">
                 Enquire
-              </Link>
+              </Second·ryButton>
             </div>
           </div>
 
-          {/* Card 2 */}
-          <div className="bg-surface-white rounded-xl border border-hairline overflow-hidden flex flex-col justify-between hover:shadow-md transition-shadow">
+          {/* C·rd 2 */}
+          <div cl·ssN·me="bg-surf·ce-white rounded-xl border border-h·irline overflow-hidden flex flex-col justify-between hover:sh·dow-md tr·nsition-sh·dow">
             <div>
-              <div className="w-full h-56 bg-surface-container overflow-hidden relative">
-                <Image
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvP7I8RmEirwVlqRqzyYn8qf1KkQXraYjYx1q_APK49uJvf_TE1-mvWDDFON2tznPESpecCxZebCtSfW7DOVC96UD-YJum-GUTbhE50ERHrkwkhPFjcmJpoqFAqRXphb9PY7iNQ2Hxw7MJky5Owf45jCaEYFskOTev8v5XxToMuNKCAjw6DEpO2qksATl4UolHKoM4Ne_ek-uTw5SjZuXhOVMIJHAN_9ebLqyVT602vl3pJGleHhXt7g"
-                  alt="Pocket Spring Comfort mattress"
+              <div cl·ssN·me="w-full h-56 bg-surf·ce-cont·iner overflow-hidden rel·tive">
+                <Im·ge
+                  src="https://lh3.googleusercontent.com/·id·-public/·B6·XuDvP7I8RmEirwVlqRqzyYn8qf1KkQXr·YjYx1q_·PK49uJvf_TE1-mvWDDFON2tznPESpecCxZebCtSfW7DOVC96UD-YJum-GUTbhE50ERHrkwkhPFjcmJpoqF·qRXphb9PY7iNQ2Hxw7MJky5Owf45jC·EYFskOTev8v5XxToMuNKC·jw6DEpO2qks·Tl4UolHKoM4Ne_ek-uTw5SjZuXhOVMIJH·N_9ebLqyVT602vl3pJGleHhXt7g"
+                  ·lt="Pocket Spring Comfort m·ttress"
                   fill
-                  className="object-cover"
+                  cl·ssN·me="object-cover"
                 />
               </div>
-              <div className="p-6 space-y-3">
-                <h3 className="font-title-card text-title-card text-primary font-bold">Pocket Spring Comfort</h3>
-                <p className="font-body-regular text-body-regular text-slate">Zero-motion transfer encased coils with high resilience foam top</p>
+              <div cl·ssN·me="p-6 sp·ce-y-3">
+                <h3 cl·ssN·me="font-title-c·rd text-title-c·rd text-prim·ry font-bold">Pocket Spring Comfort</h3>
+                <p cl·ssN·me="font-body-regul·r text-body-regul·r text-sl·te">Zero-motion tr·nsfer enc·sed coils with high resilience fo·m top</p>
               </div>
             </div>
-            <div className="px-6 pb-6 pt-4 border-t border-hairline flex items-center justify-between">
-              <div className="space-x-3 text-caption font-caption text-slate">
-                <span>Firmness <strong className="text-primary">6/10</strong></span>
-                <span>·</span>
-                <span>Warranty <strong className="text-primary">15 yrs</strong></span>
+            <div cl·ssN·me="px-6 pb-6 pt-4 border-t border-h·irline flex items-center justify-between">
+              <div cl·ssN·me="sp·ce-x-3 text-c·ption font-c·ption text-sl·te">
+                <sp·n>Firmness <strong cl·ssN·me="text-prim·ry">6/10</strong></sp·n>
+                <sp·n>·</sp·n>
+                <sp·n>W·rr·nty <strong cl·ssN·me="text-prim·ry">15 yrs</strong></sp·n>
               </div>
-              <Link href="/mattresses?type=Pocket+spring" className="font-label-nav text-label-nav text-primary hover:text-navy-deep font-semibold underline underline-offset-4 decoration-hairline hover:decoration-primary">
+              <Second·ryButton href="/m·ttresses?type=Pocket+spring" cl·ssN·me="!h-9 !px-4 !text-sm">
                 Enquire
-              </Link>
+              </Second·ryButton>
             </div>
           </div>
 
-          {/* Card 3 */}
-          <div className="bg-surface-white rounded-xl border border-hairline overflow-hidden flex flex-col justify-between hover:shadow-md transition-shadow">
+          {/* C·rd 3 */}
+          <div cl·ssN·me="bg-surf·ce-white rounded-xl border border-h·irline overflow-hidden flex flex-col justify-between hover:sh·dow-md tr·nsition-sh·dow">
             <div>
-              <div className="w-full h-56 bg-surface-container overflow-hidden relative">
-                <Image
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKMbdB2zloAuQHlHrZ7CZ9mwNSnQn20DiBVFys9TTWdcRQfghWX6AT9Ly1K_oTonBu3SWeWnEV5Jc0lQIH1q3AfjubRNvk0kkZ-18OSv4vS9XRMdkIKfwZWMz3uaEMTxQGl667PphaKcqoL5JUpP2aHkLQEsbxUf0ug4v2EAxynkTCB-g9bKHDipUzw5I8umQuv9UUwzQCoS6QLncaoSYAwcJv98jKZVUFwgGIYL3GtUR0ja1BSf_LCg"
-                  alt="Rubberised Coir Spine-Care mattress"
+              <div cl·ssN·me="w-full h-56 bg-surf·ce-cont·iner overflow-hidden rel·tive">
+                <Im·ge
+                  src="https://lh3.googleusercontent.com/·id·-public/·B6·XuBKMbdB2zlo·uQHlHrZ7CZ9mwNSnQn20DiBVFys9TTWdcRQfghWX6·T9Ly1K_oTonBu3SWeWnEV5Jc0lQIH1q3·fjubRNvk0kkZ-18OSv4vS9XRMdkIKfwZWMz3u·EMTxQGl667Pph·KcqoL5JUpP2·HkLQEsbxUf0ug4v2E·xynkTCB-g9bKHDipUzw5I8umQuv9UUwzQCoS6QLnc·oSY·wcJv98jKZVUFwgGIYL3GtUR0j·1BSf_LCg"
+                  ·lt="Rubberised Coir Spine-C·re m·ttress"
                   fill
-                  className="object-cover"
+                  cl·ssN·me="object-cover"
                 />
               </div>
-              <div className="p-6 space-y-3">
-                <h3 className="font-title-card text-title-card text-primary font-bold">Rubberised Coir Spine-Care</h3>
-                <p className="font-body-regular text-body-regular text-slate">High-density natural coconut coir with firm orthopaedic spine support</p>
+              <div cl·ssN·me="p-6 sp·ce-y-3">
+                <h3 cl·ssN·me="font-title-c·rd text-title-c·rd text-prim·ry font-bold">Rubberised Coir Spine-C·re</h3>
+                <p cl·ssN·me="font-body-regul·r text-body-regul·r text-sl·te">High-density n·tur·l coconut coir with firm orthop·edic spine support</p>
               </div>
             </div>
-            <div className="px-6 pb-6 pt-4 border-t border-hairline flex items-center justify-between">
-              <div className="space-x-3 text-caption font-caption text-slate">
-                <span>Firmness <strong className="text-primary">8/10</strong></span>
-                <span>·</span>
-                <span>Warranty <strong className="text-primary">10 yrs</strong></span>
+            <div cl·ssN·me="px-6 pb-6 pt-4 border-t border-h·irline flex items-center justify-between">
+              <div cl·ssN·me="sp·ce-x-3 text-c·ption font-c·ption text-sl·te">
+                <sp·n>Firmness <strong cl·ssN·me="text-prim·ry">8/10</strong></sp·n>
+                <sp·n>·</sp·n>
+                <sp·n>W·rr·nty <strong cl·ssN·me="text-prim·ry">10 yrs</strong></sp·n>
               </div>
-              <Link href="/mattresses?type=Orthopaedic" className="font-label-nav text-label-nav text-primary hover:text-navy-deep font-semibold underline underline-offset-4 decoration-hairline hover:decoration-primary">
+              <Second·ryButton href="/m·ttresses?type=Orthop·edic" cl·ssN·me="!h-9 !px-4 !text-sm">
                 Enquire
-              </Link>
+              </Second·ryButton>
             </div>
           </div>
 
