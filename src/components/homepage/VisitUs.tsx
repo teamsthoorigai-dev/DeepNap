@@ -33,7 +33,7 @@ export default function VisitUs() {
             <div className="flex items-center gap-3">
               <span className="material-symbols-outlined text-[#DCA544] text-[20px] shrink-0">phone</span>
               <div>
-                <a className="font-title-card text-title-card font-bold text-primary hover:underline" href="tel:9600889334">
+                <a className="font-title-card text-title-card font-semibold text-primary hover:underline" href="tel:9600889334">
                   +91 96008 89334
                 </a>
               </div>
@@ -75,7 +75,7 @@ export default function VisitUs() {
               <div className="absolute inset-0 bg-primary/10 flex items-center justify-center p-4">
                 <div className="bg-surface-white/95 backdrop-blur-sm p-4 rounded-lg border border-hairline shadow-md text-center max-w-xs">
                   <span className="material-symbols-outlined text-error-red text-[24px]">pin_drop</span>
-                  <p className="font-label-nav text-label-nav font-bold text-primary mt-1">Chinniyampalayam Experience Unit</p>
+                  <p className="font-label-nav text-label-nav font-semibold text-primary mt-1">Chinniyampalayam Experience Unit</p>
                   <p className="font-caption text-caption text-slate mt-0.5">Adjacent to Coimbatore Airport Bypass (NH 544)</p>
                 </div>
               </div>

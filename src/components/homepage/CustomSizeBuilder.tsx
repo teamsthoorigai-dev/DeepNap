@@ -21,7 +21,7 @@ export default function CustomSizeBuilder() {
     <section className="w-full bg-surface-white py-14 px-gutter md:px-gutter-tablet lg:px-gutter-desktop border-b border-hairline">
       <div className="max-w-[1080px] mx-auto flex flex-col space-y-6">
         <div className="text-center max-w-2xl mx-auto">
-          <h2 className="font-headline-md text-headline-md text-primary font-bold">
+          <h2 className="font-headline-md text-headline-md text-primary font-semibold">
             Tell us the size. We build it.
           </h2>
           <p className="font-body-regular text-body-regular text-on-surface-variant mt-2">

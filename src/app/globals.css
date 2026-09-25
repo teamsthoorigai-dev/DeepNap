@@ -94,7 +94,7 @@
   --text-price-display: 30px;
   --text-price-display--line-height: 36px;
   --text-price-display--letter-spacing: -0.01em;
-  --text-price-display--font-weight: 700;
+  --text-price-display--font-weight: 600;
 
   --text-body-lead: 17px;
   --text-body-lead--line-height: 26px;
@@ -104,7 +104,7 @@
   --text-display-hero: 52px;
   --text-display-hero--line-height: 60px;
   --text-display-hero--letter-spacing: -0.02em;
-  --text-display-hero--font-weight: 700;
+  --text-display-hero--font-weight: 600;
 
   --text-headline-lg-mobile: 28px;
   --text-headline-lg-mobile--line-height: 36px;
@@ -124,7 +124,7 @@
   --text-display-hero-mobile: 34px;
   --text-display-hero-mobile--line-height: 42px;
   --text-display-hero-mobile--letter-spacing: -0.015em;
-  --text-display-hero-mobile--font-weight: 700;
+  --text-display-hero-mobile--font-weight: 600;
 
   --text-headline-md: 32px;
   --text-headline-md--line-height: 40px;

@@ -136,7 +136,7 @@ export default function MattressesPage() {
                         <div className="font-caption text-caption text-slate uppercase tracking-wider mb-1">Rating</div>
                         <div className="flex items-center gap-1">
                           <span className="material-symbols-outlined text-[16px] text-[#DCA544]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
-                          <span className="font-label-nav text-label-nav font-bold text-primary text-[12px] md:text-sm">4.8/5 <span className="font-normal text-xs text-slate">(120+)</span></span>
+                          <span className="font-label-nav text-label-nav font-semibold text-primary text-[12px] md:text-sm">4.8/5 <span className="font-normal text-xs text-slate">(120+)</span></span>
                         </div>
                       </div>
                       {/* Top-Right: Firmness */}
@@ -149,7 +149,7 @@ export default function MattressesPage() {
                               style={{ width: `${(product.firmness / 10) * 100}%` }}
                             ></div>
                           </div>
-                          <span className="font-label-nav text-label-nav font-bold text-primary text-[12px] whitespace-nowrap">{product.firmness}/10</span>
+                          <span className="font-label-nav text-label-nav font-semibold text-primary text-[12px] whitespace-nowrap">{product.firmness}/10</span>
                         </div>
                       </div>
                       {/* Bottom-Left: Thickness */}

@@ -52,7 +52,7 @@ export default function CompareTable() {
       label: "Firmness",
       render: (p: MattressProduct) => (
         <div className="flex flex-col gap-2">
-          <span className="font-label-nav font-bold text-primary">{p.firmness}/10 ({p.firmnessLabel})</span>
+          <span className="font-label-nav font-semibold text-primary">{p.firmness}/10 ({p.firmnessLabel})</span>
           <div className="w-full h-2 bg-surface-white border border-primary rounded-full overflow-hidden">
             <div className="h-full bg-primary rounded-full" style={{ width: `${(p.firmness / 10) * 100}%` }}></div>
           </div>

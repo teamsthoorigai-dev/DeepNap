@@ -150,8 +150,8 @@ export default function CotConfigurator({ cot }: { cot: DiwanCotProduct }) {
       {/* PAIRS WITH MODULE */}
       <div className="border-2 border-primary rounded-xl p-5 bg-[#F8F4ED]">
         <div className="flex items-center justify-between mb-3">
-          <h4 className="font-label-nav text-label-nav font-bold text-primary uppercase tracking-wider">Pairs Perfectly With</h4>
-          <span className="bg-[#DCA544] text-white text-xs font-bold px-2 py-0.5 rounded uppercase">Best Seller</span>
+          <h4 className="font-label-nav text-label-nav font-semibold text-primary uppercase tracking-wider">Pairs Perfectly With</h4>
+          <span className="bg-[#DCA544] text-white text-xs font-semibold px-2 py-0.5 rounded uppercase">Best Seller</span>
         </div>
         <div className="flex gap-4 items-center">
           <div className="relative w-20 h-20 rounded-lg overflow-hidden border border-hairline flex-shrink-0">
@@ -182,7 +182,7 @@ export default function CotConfigurator({ cot }: { cot: DiwanCotProduct }) {
         </div>
         <div className="w-full h-px bg-hairline my-2"></div>
         <div className="flex justify-between items-end">
-          <span className="font-label-nav font-bold text-primary">Indicative Total</span>
+          <span className="font-label-nav font-semibold text-primary">Indicative Total</span>
           <span className="font-display-sm text-display-sm text-primary">₹{(price + cot.installationCharge).toLocaleString('en-IN')}</span>
         </div>
       </div>

@@ -51,7 +51,7 @@ export default function ProductRange() {
                 />
               </div>
               <div className="p-6 space-y-3">
-                <h3 className="font-title-card text-title-card text-primary font-bold">Natural Latex Ortho</h3>
+                <h3 className="font-title-card text-title-card text-primary font-semibold">Natural Latex Ortho</h3>
                 <p className="font-body-regular text-body-regular text-slate">100% Kerala natural latex core with breathable organic cotton cover</p>
               </div>
             </div>
@@ -77,7 +77,7 @@ export default function ProductRange() {
                 />
               </div>
               <div className="p-6 space-y-3">
-                <h3 className="font-title-card text-title-card text-primary font-bold">Pocket Spring Comfort</h3>
+                <h3 className="font-title-card text-title-card text-primary font-semibold">Pocket Spring Comfort</h3>
                 <p className="font-body-regular text-body-regular text-slate">Zero-motion transfer encased coils with high resilience foam top</p>
               </div>
             </div>
@@ -103,7 +103,7 @@ export default function ProductRange() {
                 />
               </div>
               <div className="p-6 space-y-3">
-                <h3 className="font-title-card text-title-card text-primary font-bold">Rubberised Coir Spine-Care</h3>
+                <h3 className="font-title-card text-title-card text-primary font-semibold">Rubberised Coir Spine-Care</h3>
                 <p className="font-body-regular text-body-regular text-slate">High-density natural coconut coir with firm orthopaedic spine support</p>
               </div>
             </div>

@@ -34,7 +34,7 @@ export default function ManufacturingPage() {
         <div className="max-w-[1280px] mx-auto px-gutter md:px-gutter-tablet lg:px-gutter-desktop flex flex-col gap-20 lg:gap-32">
           
           <div className="text-center max-w-2xl mx-auto mb-4">
-            <h2 className="font-label-nav font-bold text-slate uppercase tracking-wider mb-2">How it's made</h2>
+            <h2 className="font-label-nav font-semibold text-slate uppercase tracking-wider mb-2">How it's made</h2>
             <p className="font-body-regular text-slate">We control every layer. We don't buy pre-assembled blocks and slap a cover on them. Here is how your mattress is built, from raw material to final stitch.</p>
           </div>
 

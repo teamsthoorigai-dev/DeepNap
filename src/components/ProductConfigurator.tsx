@@ -66,7 +66,7 @@ export default function ProductConfigurator({ product }: { product: MattressProd
       <div>
         <h3 className="font-label-form text-label-form font-semibold text-primary uppercase tracking-wider mb-4">Firmness</h3>
         <div className="flex flex-col gap-2">
-          <span className="font-label-nav text-label-nav font-bold text-primary whitespace-nowrap">{product.firmness} / 10 ({product.firmnessLabel})</span>
+          <span className="font-label-nav text-label-nav font-semibold text-primary whitespace-nowrap">{product.firmness} / 10 ({product.firmnessLabel})</span>
           <div className="w-full max-w-[200px] h-2 bg-surface-white border border-primary rounded-full overflow-hidden">
             <div className="h-full bg-primary rounded-full" style={{ width: `${(product.firmness / 10) * 100}%` }}></div>
           </div>

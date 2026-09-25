@@ -82,12 +82,12 @@ export default async function DiwanCotDetailPage({
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4">
                 <div className="bg-[#EFE5D7] p-6 rounded-xl">
                   <span className="material-symbols-outlined text-primary text-3xl mb-3">elevator</span>
-                  <h4 className="font-label-nav font-bold text-primary mb-2">Elevator Dimensions</h4>
+                  <h4 className="font-label-nav font-semibold text-primary mb-2">Elevator Dimensions</h4>
                   <p className="text-sm">If you live in an apartment, check if your elevator can fit the length of the cot base. (e.g., a 78" cot requires an elevator at least 80" deep or tall diagonally).</p>
                 </div>
                 <div className="bg-[#EFE5D7] p-6 rounded-xl">
                   <span className="material-symbols-outlined text-primary text-3xl mb-3">stairs</span>
-                  <h4 className="font-label-nav font-bold text-primary mb-2">Stairwell Turns</h4>
+                  <h4 className="font-label-nav font-semibold text-primary mb-2">Stairwell Turns</h4>
                   <p className="text-sm">Measure narrow stairwells and tight corners. Our delivery team needs sufficient clearance to navigate rigid frames around bends.</p>
                 </div>
               </div>
@@ -110,7 +110,7 @@ export default async function DiwanCotDetailPage({
           </div>
           
           <div className="max-w-3xl mx-auto bg-surface p-8 rounded-2xl border border-hairline text-center">
-            <h4 className="font-label-nav text-label-nav font-bold text-primary uppercase tracking-wider mb-4">Core Structure</h4>
+            <h4 className="font-label-nav text-label-nav font-semibold text-primary uppercase tracking-wider mb-4">Core Structure</h4>
             <p className="font-body-regular text-body-regular text-slate text-lg">{cot.materialDetails}</p>
           </div>
         </div>

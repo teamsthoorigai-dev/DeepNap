@@ -201,7 +201,7 @@ export default function WarrantyPage() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <h4 className="font-label-nav font-bold text-slate mb-3 flex items-center gap-2">
+              <h4 className="font-label-nav font-semibold text-slate mb-3 flex items-center gap-2">
                 <span className="material-symbols-outlined text-[#DCA544] text-[18px]">done</span> 
                 Covered
               </h4>
@@ -213,7 +213,7 @@ export default function WarrantyPage() {
             </div>
             
             <div>
-              <h4 className="font-label-nav font-bold text-slate mb-3 flex items-center gap-2">
+              <h4 className="font-label-nav font-semibold text-slate mb-3 flex items-center gap-2">
                 <span className="material-symbols-outlined text-[#ef4444] text-[18px]">close</span> 
                 Not Covered
               </h4>

@@ -92,7 +92,7 @@ export default function Header() {
               </button>
             </div>
             <nav className="flex flex-col p-4 gap-4">
-              <Link href="/mattresses" className="font-label-nav text-lg text-primary font-bold" onClick={() => setIsMobileMenuOpen(false)}>
+              <Link href="/mattresses" className="font-label-nav text-lg text-primary font-semibold" onClick={() => setIsMobileMenuOpen(false)}>
                 Mattresses
               </Link>
               <Link href="/diwan-cots" className="font-label-nav text-lg text-slate font-semibold hover:text-primary" onClick={() => setIsMobileMenuOpen(false)}>

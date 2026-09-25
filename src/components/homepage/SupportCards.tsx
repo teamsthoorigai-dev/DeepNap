@@ -30,7 +30,7 @@ export default function SupportCards() {
             <div className="space-y-4">
               <div className="flex justify-between items-baseline">
                 <h3 className="font-title-card text-title-card text-primary font-semibold">Soft</h3>
-                <span className="font-label-nav text-label-nav font-bold text-[#DCA544]">Scale 3–4</span>
+                <span className="font-label-nav text-label-nav font-semibold text-[#DCA544]">Scale 3–4</span>
               </div>
               <div className="w-full h-36 rounded-lg overflow-hidden bg-surface-container relative">
                 <Image
@@ -64,7 +64,7 @@ export default function SupportCards() {
             <div className="space-y-4">
               <div className="flex justify-between items-baseline">
                 <h3 className="font-title-card text-title-card text-primary font-semibold">Medium Firm</h3>
-                <span className="font-label-nav text-label-nav font-bold text-[#DCA544]">Scale 6–7</span>
+                <span className="font-label-nav text-label-nav font-semibold text-[#DCA544]">Scale 6–7</span>
               </div>
               <div className="w-full h-36 rounded-lg overflow-hidden bg-surface-container relative">
                 <Image
@@ -95,7 +95,7 @@ export default function SupportCards() {
             <div className="space-y-4">
               <div className="flex justify-between items-baseline">
                 <h3 className="font-title-card text-title-card text-primary font-semibold">Firm</h3>
-                <span className="font-label-nav text-label-nav font-bold text-[#DCA544]">Scale 8–9</span>
+                <span className="font-label-nav text-label-nav font-semibold text-[#DCA544]">Scale 8–9</span>
               </div>
               <div className="w-full h-36 rounded-lg overflow-hidden bg-surface-container relative">
                 <Image

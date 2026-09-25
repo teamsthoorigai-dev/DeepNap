@@ -227,7 +227,7 @@ export default function BookConsultationPage() {
       {/* SECTION 4 - WHAT TO EXPECT */}
       <section className="w-full bg-surface-white py-16 px-gutter md:px-gutter-tablet lg:px-gutter-desktop border-y border-hairline">
         <div className="max-w-[1280px] mx-auto">
-          <h2 className="font-label-nav font-bold text-slate uppercase tracking-wider text-center mb-10">What to expect</h2>
+          <h2 className="font-label-nav font-semibold text-slate uppercase tracking-wider text-center mb-10">What to expect</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center relative">
             <div className="hidden md:block absolute top-6 left-[10%] right-[10%] h-[1px] bg-hairline"></div>

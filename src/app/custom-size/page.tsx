@@ -101,7 +101,7 @@ export default function CustomSizePage() {
 
         {/* Measure */}
         <div className="p-8 md:p-12 bg-[#F8F4ED]">
-          <h3 className="font-label-nav text-label-nav font-bold text-primary uppercase tracking-wider mb-6 text-center">How to measure</h3>
+          <h3 className="font-label-nav text-label-nav font-semibold text-primary uppercase tracking-wider mb-6 text-center">How to measure</h3>
           <div className="flex flex-col md:flex-row items-center gap-8 justify-center">
             {/* Visual representation of a bed frame */}
             <div className="w-48 h-56 border-4 border-primary rounded relative flex items-center justify-center bg-surface-white">
@@ -112,15 +112,15 @@ export default function CustomSizePage() {
             
             <ul className="space-y-4 max-w-sm">
               <li className="flex items-start gap-3">
-                <div className="w-6 h-6 rounded-full bg-primary text-surface-white flex items-center justify-center flex-shrink-0 font-bold text-sm">1</div>
+                <div className="w-6 h-6 rounded-full bg-primary text-surface-white flex items-center justify-center flex-shrink-0 font-semibold text-sm">1</div>
                 <p className="font-body-regular text-body-regular text-slate text-sm pt-0.5">Remove your old mattress and measure the inside dimensions of your bed frame.</p>
               </li>
               <li className="flex items-start gap-3">
-                <div className="w-6 h-6 rounded-full bg-primary text-surface-white flex items-center justify-center flex-shrink-0 font-bold text-sm">2</div>
+                <div className="w-6 h-6 rounded-full bg-primary text-surface-white flex items-center justify-center flex-shrink-0 font-semibold text-sm">2</div>
                 <p className="font-body-regular text-body-regular text-slate text-sm pt-0.5">Measure the length (head to foot) and the width (side to side) in inches.</p>
               </li>
               <li className="flex items-start gap-3">
-                <div className="w-6 h-6 rounded-full bg-primary text-surface-white flex items-center justify-center flex-shrink-0 font-bold text-sm">3</div>
+                <div className="w-6 h-6 rounded-full bg-primary text-surface-white flex items-center justify-center flex-shrink-0 font-semibold text-sm">3</div>
                 <p className="font-body-regular text-body-regular text-slate text-sm pt-0.5">Determine how thick you want the mattress to be based on your headboard height.</p>
               </li>
             </ul>

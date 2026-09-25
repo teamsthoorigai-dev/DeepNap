@@ -39,7 +39,7 @@ export default function Hero() {
           <div className="w-full max-w-[460px] bg-surface-white rounded-xl shadow-md border border-hairline p-6 flex flex-col space-y-4">
             <div className="flex justify-between items-start gap-4">
               <div>
-                <h2 className="font-title-card text-title-card text-primary font-bold">
+                <h2 className="font-title-card text-title-card text-primary font-semibold">
                   Natural Latex & Pocket Spring
                 </h2>
                 <p className="font-body-regular text-body-regular text-slate mt-0.5 text-xs">

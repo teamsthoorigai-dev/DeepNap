@@ -16,7 +16,7 @@ export default function Reviews() {
             <span className="material-symbols-outlined text-[22px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
             <span className="material-symbols-outlined text-[22px]" style={{ fontVariationSettings: "'FILL' 1" }}>star_half</span>
           </div>
-          <h2 className="font-title-card text-title-card text-primary font-bold">
+          <h2 className="font-title-card text-title-card text-primary font-semibold">
             4.6 from 62 Google reviews
           </h2>
         </div>

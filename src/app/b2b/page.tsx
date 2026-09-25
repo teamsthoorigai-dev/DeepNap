@@ -150,17 +150,17 @@ export default function B2BPage() {
       {/* SECTION 6 - PROOF */}
       <section className="w-full bg-surface-white py-20 px-gutter md:px-gutter-tablet lg:px-gutter-desktop">
         <div className="max-w-[1280px] mx-auto text-center">
-          <h3 className="font-label-nav font-bold text-slate uppercase tracking-wider mb-10">Trusted by institutions across Tamil Nadu</h3>
+          <h3 className="font-label-nav font-semibold text-slate uppercase tracking-wider mb-10">Trusted by institutions across Tamil Nadu</h3>
           
           {/* Client List (Typographic Treatment) */}
           <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-4 md:gap-x-6 opacity-80">
-            <div className="font-display-sm text-xl md:text-2xl font-bold text-primary tracking-tight">The Residency</div>
+            <div className="font-display-sm text-xl md:text-2xl font-semibold text-primary tracking-tight">The Residency</div>
             <span className="hidden md:block text-slate/30 text-xl leading-none">•</span>
-            <div className="font-display-sm text-xl md:text-2xl font-bold text-primary tracking-tight">PSG Hospitals</div>
+            <div className="font-display-sm text-xl md:text-2xl font-semibold text-primary tracking-tight">PSG Hospitals</div>
             <span className="hidden md:block text-slate/30 text-xl leading-none">•</span>
-            <div className="font-display-sm text-xl md:text-2xl font-bold text-primary tracking-tight">KGISL Infrastructure</div>
+            <div className="font-display-sm text-xl md:text-2xl font-semibold text-primary tracking-tight">KGISL Infrastructure</div>
             <span className="hidden md:block text-slate/30 text-xl leading-none">•</span>
-            <div className="font-display-sm text-xl md:text-2xl font-bold text-primary tracking-tight">Kumaraguru College</div>
+            <div className="font-display-sm text-xl md:text-2xl font-semibold text-primary tracking-tight">Kumaraguru College</div>
           </div>
           
         </div>

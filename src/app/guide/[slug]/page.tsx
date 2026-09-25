@@ -65,7 +65,7 @@ function renderContent(content: string) {
     }
     
     // Normal paragraph with rough bold parsing
-    const boldParsed = trimmed.replace(/\*\*(.*?)\*\*/g, '<strong class="font-bold text-primary">$1</strong>').replace(/\*(.*?)\*/g, '<em class="italic">$1</em>');
+    const boldParsed = trimmed.replace(/\*\*(.*?)\*\*/g, '<strong class="font-semibold text-primary">$1</strong>').replace(/\*(.*?)\*/g, '<em class="italic">$1</em>');
     
     return <p key={index} className="mb-6 text-slate" dangerouslySetInnerHTML={{ __html: boldParsed }} />;
   });

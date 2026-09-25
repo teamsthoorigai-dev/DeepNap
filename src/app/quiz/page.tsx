@@ -228,7 +228,7 @@ ${recommended.map(r => "- " + r.name).join("\n")}`;
                 {recommended.map((product, index) => (
                   <div key={product.id} className="flex flex-col">
                     {/* The Reasoning */}
-                    <div className="min-h-[48px] font-label-nav font-bold text-[#DCA544] mb-3 leading-snug">
+                    <div className="min-h-[48px] font-label-nav font-semibold text-[#DCA544] mb-3 leading-snug">
                       {index === 0 && `Because you want ${answers.firmness.toLowerCase()} support.`}
                       {index === 1 && `A great alternative for ${answers.sleepPos.toLowerCase()} sleepers.`}
                       {index === 2 && `Our most popular all-rounder.`}
@@ -243,7 +243,7 @@ ${recommended.map(r => "- " + r.name).join("\n")}`;
                         <h3 className="font-title-card text-primary mb-1 line-clamp-1">{product.name}</h3>
                         <p className="font-caption text-slate line-clamp-2 mb-4">{product.description}</p>
                         <div className="mt-auto pt-4 border-t border-hairline">
-                          <div className="font-label-nav font-bold text-primary">₹{product.priceFrom.toLocaleString('en-IN')}</div>
+                          <div className="font-label-nav font-semibold text-primary">₹{product.priceFrom.toLocaleString('en-IN')}</div>
                         </div>
                       </div>
                     </Link>

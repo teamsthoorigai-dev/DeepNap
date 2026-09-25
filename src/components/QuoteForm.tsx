@@ -155,7 +155,7 @@ ${notes || "None"}
       {/* RIGHT - SUMMARY TRAY */}
       <div className="w-full lg:w-[380px] flex-shrink-0">
         <div className="bg-surface-white rounded-xl border border-hairline p-6 sticky top-24 shadow-sm">
-          <h3 className="font-label-nav font-bold text-primary uppercase tracking-wider mb-6">Your Configuration</h3>
+          <h3 className="font-label-nav font-semibold text-primary uppercase tracking-wider mb-6">Your Configuration</h3>
           
           <div className="space-y-4 mb-6">
             <div>

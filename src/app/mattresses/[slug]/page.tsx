@@ -68,7 +68,7 @@ export default async function ProductDetailPage({
         <div className="max-w-[1280px] mx-auto flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div className="flex items-center gap-3">
             <span className="material-symbols-outlined text-primary text-[28px]">local_shipping</span>
-            <span className="font-label-nav text-label-nav text-primary font-bold">Delivery & Installation Check</span>
+            <span className="font-label-nav text-label-nav text-primary font-semibold">Delivery & Installation Check</span>
           </div>
           <div className="flex w-full md:max-w-md gap-3">
             <input 
@@ -95,10 +95,10 @@ export default async function ProductDetailPage({
             <div className="bg-surface-container-low aspect-square rounded-2xl flex items-center justify-center p-10 relative border border-hairline">
               {/* Dummy diagram representing layers */}
               <div className="w-full h-full border-2 border-primary border-dashed rounded-lg flex flex-col p-4 gap-4">
-                <div className="h-1/3 bg-surface-white border border-primary flex items-center justify-center text-primary font-bold rounded">
+                <div className="h-1/3 bg-surface-white border border-primary flex items-center justify-center text-primary font-semibold rounded">
                   {product.comfortLayer}
                 </div>
-                <div className="h-2/3 bg-primary/10 border border-primary flex items-center justify-center text-primary font-bold rounded">
+                <div className="h-2/3 bg-primary/10 border border-primary flex items-center justify-center text-primary font-semibold rounded">
                   {product.coreMaterial}
                 </div>
               </div>
@@ -106,12 +106,12 @@ export default async function ProductDetailPage({
             
             <div className="flex flex-col space-y-8">
               <div>
-                <h4 className="font-label-nav text-label-nav font-bold text-primary uppercase tracking-wider mb-2">Comfort Layer</h4>
+                <h4 className="font-label-nav text-label-nav font-semibold text-primary uppercase tracking-wider mb-2">Comfort Layer</h4>
                 <p className="font-body-regular text-body-regular text-slate">{product.comfortLayer}. Designed to relieve pressure points and regulate temperature where your body meets the mattress.</p>
               </div>
               <div className="w-12 h-px bg-hairline"></div>
               <div>
-                <h4 className="font-label-nav text-label-nav font-bold text-primary uppercase tracking-wider mb-2">Support Core</h4>
+                <h4 className="font-label-nav text-label-nav font-semibold text-primary uppercase tracking-wider mb-2">Support Core</h4>
                 <p className="font-body-regular text-body-regular text-slate">{product.coreMaterial}. Engineered to keep your spine in alignment and prevent the heavy parts of your body from sinking too deeply.</p>
               </div>
             </div>
