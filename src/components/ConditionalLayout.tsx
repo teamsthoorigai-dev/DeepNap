@@ -1,8 +1,9 @@
-"use client";
+﻿"use client";
 import React from "react";
 import { usePathname } from "next/navigation";
 import Header from "./Header";
 import Footer from "./Footer";
+import FloatingSocials from "./FloatingSocials";
 
 export default function ConditionalLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
@@ -26,6 +27,7 @@ export default function ConditionalLayout({ children }: { children: React.ReactN
       <div className="flex-grow pt-20">
         {children}
       </div>
+      <FloatingSocials />
       <Footer />
     </>
   );

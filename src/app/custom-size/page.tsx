@@ -35,45 +35,61 @@ export default function CustomSizePage() {
             <div>
               <label className="block font-label-form text-label-form text-slate mb-1.5 font-medium">Length</label>
               <div className="relative">
-                <input
-                  className="w-full h-[52px] bg-surface-white rounded-lg border border-hairline px-3.5 pr-8 font-label-nav text-label-nav text-primary focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary font-semibold"
-                  max="90"
-                  min="36"
-                  type="number"
+                <select
+                  className="w-full h-[52px] bg-surface-white rounded-lg border border-hairline px-3.5 pr-10 appearance-none font-label-nav text-label-nav text-primary focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary font-semibold"
                   value={length}
                   onChange={(e) => setLength(Number(e.target.value) || 0)}
-                />
-                <span className="absolute right-3.5 top-1/2 -translate-y-1/2 font-label-form text-label-form text-slate">in</span>
+                >
+                    <option key={72} value={72}>72</option>
+                    <option key={75} value={75}>75</option>
+                    <option key={78} value={78}>78</option>
+                </select>
+                <div className="absolute right-3.5 top-1/2 -translate-y-1/2 flex items-center gap-1 pointer-events-none text-slate">
+                  <span className="font-label-form text-label-form">in</span>
+                  <span className="material-symbols-outlined text-[18px]">expand_more</span>
+                </div>
               </div>
             </div>
 
             <div>
               <label className="block font-label-form text-label-form text-slate mb-1.5 font-medium">Width</label>
               <div className="relative">
-                <input
-                  className="w-full h-[52px] bg-surface-white rounded-lg border border-hairline px-3.5 pr-8 font-label-nav text-label-nav text-primary focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary font-semibold"
-                  max="84"
-                  min="30"
-                  type="number"
+                <select
+                  className="w-full h-[52px] bg-surface-white rounded-lg border border-hairline px-3.5 pr-10 appearance-none font-label-nav text-label-nav text-primary focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary font-semibold"
                   value={width}
                   onChange={(e) => setWidth(Number(e.target.value) || 0)}
-                />
-                <span className="absolute right-3.5 top-1/2 -translate-y-1/2 font-label-form text-label-form text-slate">in</span>
+                >
+                    <option key={36} value={36}>36</option>
+                    <option key={48} value={48}>48</option>
+                    <option key={60} value={60}>60</option>
+                    <option key={72} value={72}>72</option>
+                    <option key={78} value={78}>78</option>
+                    <option key={84} value={84}>84</option>
+                </select>
+                <div className="absolute right-3.5 top-1/2 -translate-y-1/2 flex items-center gap-1 pointer-events-none text-slate">
+                  <span className="font-label-form text-label-form">in</span>
+                  <span className="material-symbols-outlined text-[18px]">expand_more</span>
+                </div>
               </div>
             </div>
 
             <div>
               <label className="block font-label-form text-label-form text-slate mb-1.5 font-medium">Thickness</label>
               <div className="relative">
-                <input
-                  className="w-full h-[52px] bg-surface-white rounded-lg border border-hairline px-3.5 pr-8 font-label-nav text-label-nav text-primary focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary font-semibold"
-                  max="12"
-                  min="4"
-                  type="number"
+                <select
+                  className="w-full h-[52px] bg-surface-white rounded-lg border border-hairline px-3.5 pr-10 appearance-none font-label-nav text-label-nav text-primary focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary font-semibold"
                   value={thickness}
                   onChange={(e) => setThickness(Number(e.target.value) || 0)}
-                />
-                <span className="absolute right-3.5 top-1/2 -translate-y-1/2 font-label-form text-label-form text-slate">in</span>
+                >
+                    <option key={3} value={3}>3</option>
+                    <option key={4} value={4}>4</option>
+                    <option key={5} value={5}>5</option>
+                    <option key={6} value={6}>6</option>
+                </select>
+                <div className="absolute right-3.5 top-1/2 -translate-y-1/2 flex items-center gap-1 pointer-events-none text-slate">
+                  <span className="font-label-form text-label-form">in</span>
+                  <span className="material-symbols-outlined text-[18px]">expand_more</span>
+                </div>
               </div>
             </div>
           </div>
