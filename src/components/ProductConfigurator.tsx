@@ -82,14 +82,14 @@ export default function ProductConfigurator({ product }: { product: MattressProd
             {standardSizes.map(size => (
               <button 
                 key={size}
-                className="h-12 border border-primary text-primary font-label-nav text-label-nav font-medium rounded-lg hover:bg-surface-container transition-colors"
+                className="h-12 border border-primary text-primary font-label-nav text-label-nav font-medium rounded-full hover:bg-surface-container transition-colors"
               >
                 {size}
               </button>
             ))}
             <button 
               onClick={() => setSizeType("custom")}
-              className="h-12 border border-hairline text-slate font-label-nav text-label-nav font-medium rounded-lg hover:bg-surface-container flex items-center justify-center gap-2 transition-colors relative"
+              className="h-12 border border-hairline text-slate font-label-nav text-label-nav font-medium rounded-full hover:bg-surface-container flex items-center justify-center gap-2 transition-colors relative"
             >
               <span className="w-1.5 h-1.5 rounded-full bg-[#DCA544] absolute left-4"></span>
               Custom size
@@ -139,7 +139,7 @@ export default function ProductConfigurator({ product }: { product: MattressProd
             <button 
               key={t}
               onClick={() => setSelectedThickness(t)}
-              className={`h-12 w-16 border font-label-nav text-label-nav font-medium rounded-lg transition-colors ${
+              className={`h-12 w-16 border font-label-nav text-label-nav font-medium rounded-full transition-colors ${
                 selectedThickness === t 
                   ? "border-primary bg-primary text-surface-white" 
                   : "border-hairline text-slate hover:bg-surface-container"
@@ -166,13 +166,13 @@ export default function ProductConfigurator({ product }: { product: MattressProd
       <div className="flex flex-col sm:flex-row gap-3">
         <Link 
           href={`/quote?product=${encodeURIComponent(product.name)}&size=${encodeURIComponent(sizeType === 'custom' ? `${length}x${width}` : 'Standard size')}&thickness=${selectedThickness}&price=${price.toLocaleString('en-IN')}`}
-          className="h-12 flex-1 rounded-lg bg-primary text-surface-white font-label-nav text-label-nav font-semibold flex items-center justify-center hover:bg-navy-deep transition-colors shadow-sm"
+          className="h-12 flex-1 rounded-full bg-primary text-surface-white font-label-nav text-label-nav font-semibold flex items-center justify-center hover:bg-navy-deep transition-colors shadow-sm"
         >
           Get a quote
         </Link>
         <Link 
           href={`https://wa.me/919600889334?text=${encodeURIComponent(`Hi Deep Nap, I have a question about the ${product.name}.`)}`}
-          className="h-12 sm:w-[60px] rounded-lg border border-primary text-primary flex items-center justify-center hover:bg-surface-container transition-colors flex-shrink-0"
+          className="h-12 sm:w-[60px] rounded-full border border-primary text-primary flex items-center justify-center hover:bg-surface-container transition-colors flex-shrink-0"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -188,7 +188,7 @@ export default function ProductConfigurator({ product }: { product: MattressProd
       </ul>
 
       {sizeType === "custom" && (
-        <div className="bg-[#F3E3C2] text-primary p-3 rounded-lg text-sm font-medium mt-2">
+        <div className="bg-[#F3E3C2] text-primary p-3 rounded-lg text-sm font-medium mt-2 text-center flex items-center justify-center">
           Custom sizes are made only for you and cannot be returned.
         </div>
       )}

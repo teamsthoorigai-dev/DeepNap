@@ -185,7 +185,7 @@ export default function WarrantyPage() {
             <div className="border-t border-hairline pt-8">
               <p className="font-body-regular text-slate mb-4">Need to make a claim in the future?</p>
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-                <a href="https://wa.me/919600889334" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center font-label-nav font-medium h-12 px-6 rounded-lg bg-[#25D366] text-surface-white hover:bg-[#1EBE5A] transition-colors w-full sm:w-auto">
+                <a href="https://wa.me/919600889334" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center font-label-nav font-medium h-12 px-6 rounded-full bg-[#25D366] text-surface-white hover:bg-[#1EBE5A] transition-colors w-full sm:w-auto">
                   <span className="material-symbols-outlined text-[18px] mr-2">chat</span>
                   WhatsApp Us
                 </a>

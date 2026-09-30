@@ -5,10 +5,10 @@ export default function FloatingSocials() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="fixed bottom-6 right-6 flex flex-col items-center gap-3 z-50">
+    <div className="fixed bottom-6 right-6 z-50 group">
       {/* Hidden Stack */}
       <div 
-        className={`flex flex-col gap-3 transition-all duration-300 origin-bottom ${isOpen ? 'opacity-100 scale-100 translate-y-0' : 'opacity-0 scale-90 translate-y-10 pointer-events-none'}`}
+        className={`absolute bottom-full pb-3 left-1/2 -translate-x-1/2 flex flex-col gap-3 transition-all duration-300 origin-bottom ${isOpen ? 'opacity-100 scale-100 translate-y-0 pointer-events-auto' : 'opacity-0 scale-90 translate-y-10 pointer-events-none'} lg:group-hover:opacity-100 lg:group-hover:scale-100 lg:group-hover:translate-y-0 lg:group-hover:pointer-events-auto`}
       >
         {/* Facebook */}
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-full bg-surface-white text-primary border border-hairline shadow-md flex items-center justify-center hover:bg-surface-container-low hover:scale-110 transition-all">
@@ -45,10 +45,10 @@ export default function FloatingSocials() {
         onClick={() => setIsOpen(!isOpen)}
         className="relative w-14 h-14 rounded-full bg-primary text-surface-white shadow-xl flex items-center justify-center hover:bg-navy-deep hover:scale-105 transition-all z-10"
       >
-        <span className={`material-symbols-outlined text-[28px] absolute transition-all duration-300 ${isOpen ? 'opacity-0 rotate-90 scale-50' : 'opacity-100 rotate-0 scale-100'}`}>
+        <span className={`material-symbols-outlined text-[28px] absolute transition-all duration-300 ${isOpen ? 'opacity-0 rotate-90 scale-50' : 'opacity-100 rotate-0 scale-100'} lg:group-hover:opacity-0 lg:group-hover:rotate-90 lg:group-hover:scale-50`}>
           chat
         </span>
-        <span className={`material-symbols-outlined text-[28px] absolute transition-all duration-300 ${isOpen ? 'opacity-100 rotate-0 scale-100' : 'opacity-0 -rotate-90 scale-50'}`}>
+        <span className={`material-symbols-outlined text-[28px] absolute transition-all duration-300 ${isOpen ? 'opacity-100 rotate-0 scale-100' : 'opacity-0 -rotate-90 scale-50'} lg:group-hover:opacity-100 lg:group-hover:rotate-0 lg:group-hover:scale-100`}>
           close
         </span>
       </button>

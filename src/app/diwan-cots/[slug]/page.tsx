@@ -24,7 +24,7 @@ export default async function DiwanCotDetailPage({
   return (
     <main className="w-full bg-surface-white min-h-screen pb-24">
       {/* SECTION 1 - GALLERY AND CONFIGURATOR */}
-      <section className="w-full bg-[#EFE5D7] pt-8 lg:pt-12 pb-12 lg:pb-24 px-gutter md:px-gutter-tablet lg:px-gutter-desktop border-b border-hairline">
+      <section className="w-full bg-[#EFE5D7]/50 pt-8 lg:pt-12 pb-12 lg:pb-24 px-gutter md:px-gutter-tablet lg:px-gutter-desktop border-b border-hairline">
         <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
           
           {/* LEFT - Gallery */}
@@ -80,12 +80,12 @@ export default async function DiwanCotDetailPage({
               <p className="text-lg">Unlike our mattresses which can bend slightly, Diwan Cots are built with large, rigid frames. Please verify your access routes.</p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4">
-                <div className="bg-[#EFE5D7] p-6 rounded-xl">
+                <div className="bg-[#EFE5D7]/50 p-6 rounded-xl">
                   <span className="material-symbols-outlined text-primary text-3xl mb-3">elevator</span>
                   <h4 className="font-label-nav font-semibold text-primary mb-2">Elevator Dimensions</h4>
                   <p className="text-sm">If you live in an apartment, check if your elevator can fit the length of the cot base. (e.g., a 78" cot requires an elevator at least 80" deep or tall diagonally).</p>
                 </div>
-                <div className="bg-[#EFE5D7] p-6 rounded-xl">
+                <div className="bg-[#EFE5D7]/50 p-6 rounded-xl">
                   <span className="material-symbols-outlined text-primary text-3xl mb-3">stairs</span>
                   <h4 className="font-label-nav font-semibold text-primary mb-2">Stairwell Turns</h4>
                   <p className="text-sm">Measure narrow stairwells and tight corners. Our delivery team needs sufficient clearance to navigate rigid frames around bends.</p>

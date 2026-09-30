@@ -43,14 +43,14 @@ export default function CotConfigurator({ cot }: { cot: DiwanCotProduct }) {
           <span className="mx-2">/</span> {cot.name}
         </div>
         <h1 className="font-display-md text-display-md text-primary mb-2">{cot.name}</h1>
-        <p className="font-body-regular text-body-regular text-slate">{cot.description}</p>
+        <p className="font-body-regular text-body-regular text-slate whitespace-pre-wrap">{cot.description}</p>
         <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 mt-3 group">
           <div className="flex items-center text-[#DCA544]">
-            <span className="material-symbols-outlined text-[16px]">star</span>
-            <span className="material-symbols-outlined text-[16px]">star</span>
-            <span className="material-symbols-outlined text-[16px]">star</span>
-            <span className="material-symbols-outlined text-[16px]">star</span>
-            <span className="material-symbols-outlined text-[16px]">star_half</span>
+            <span className="material-symbols-outlined text-[16px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+            <span className="material-symbols-outlined text-[16px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+            <span className="material-symbols-outlined text-[16px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+            <span className="material-symbols-outlined text-[16px]" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+            <span className="material-symbols-outlined text-[16px]" style={{ fontVariationSettings: "'FILL' 1" }}>star_half</span>
           </div>
           <span className="font-label-nav text-label-nav font-medium text-slate group-hover:underline ml-1">4.8 · 34 reviews</span>
         </a>
@@ -85,7 +85,7 @@ export default function CotConfigurator({ cot }: { cot: DiwanCotProduct }) {
             {standardSizes.map(size => (
               <button 
                 key={size}
-                className="h-12 border border-primary text-primary font-label-nav text-label-nav font-medium rounded-lg hover:bg-surface-container transition-colors"
+                className="h-12 border border-primary text-primary font-label-nav text-label-nav font-medium rounded-full hover:bg-surface-container transition-colors"
                 onClick={() => {
                   const [l, w] = size.split(" ")[0].split("x");
                   setLength(Number(l));
@@ -97,7 +97,7 @@ export default function CotConfigurator({ cot }: { cot: DiwanCotProduct }) {
             ))}
             <button 
               onClick={() => setSizeType("custom")}
-              className="h-12 border border-hairline text-slate font-label-nav text-label-nav font-medium rounded-lg hover:bg-surface-container flex items-center justify-center gap-2 transition-colors relative"
+              className="h-12 border border-hairline text-slate font-label-nav text-label-nav font-medium rounded-full hover:bg-surface-container flex items-center justify-center gap-2 transition-colors relative"
             >
               <span className="w-1.5 h-1.5 rounded-full bg-[#DCA544] absolute left-4"></span>
               Custom size
@@ -164,7 +164,7 @@ export default function CotConfigurator({ cot }: { cot: DiwanCotProduct }) {
         </div>
         <Link 
           href={`/mattresses/${pairsWithSlug}?prefillSize=${length}x${width}`}
-          className="mt-4 block w-full text-center h-10 leading-10 rounded-lg bg-surface-white border border-primary text-primary font-label-nav font-semibold hover:bg-primary hover:text-surface-white transition-colors"
+          className="mt-4 block w-full text-center h-10 leading-10 rounded-full bg-surface-white border border-primary text-primary font-label-nav font-semibold hover:bg-primary hover:text-surface-white transition-colors"
         >
           View Mattress (Size Prefilled)
         </Link>
@@ -191,7 +191,7 @@ export default function CotConfigurator({ cot }: { cot: DiwanCotProduct }) {
       <div className="flex flex-col sm:flex-row gap-3">
         <Link 
           href={`/quote?product=${encodeURIComponent(cot.name)}&size=${encodeURIComponent(`${length}x${width}`)}&thickness=N/A&price=${(price + cot.installationCharge).toLocaleString('en-IN')}`}
-          className="h-12 flex-1 rounded-lg bg-primary text-surface-white font-label-nav text-label-nav font-semibold flex items-center justify-center hover:bg-navy-deep transition-colors shadow-sm"
+          className="h-12 flex-1 rounded-full bg-primary text-surface-white font-label-nav text-label-nav font-semibold flex items-center justify-center hover:bg-navy-deep transition-colors shadow-sm"
         >
           Get a quote
         </Link>

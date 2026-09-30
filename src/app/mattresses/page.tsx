@@ -164,14 +164,14 @@ export default function MattressesPage() {
                       </div>
                     </div>
 
-                    <div className="mt-auto flex flex-col gap-4 pt-4 border-t border-hairline">
-                      <div>
-                        <div className="font-price-display text-price-display text-primary">₹{product.priceFrom.toLocaleString('en-IN')}</div>
-                        <div className="font-caption text-caption text-slate">indicative starting price</div>
+                    <div className="mt-auto flex flex-row items-center justify-between gap-4 pt-4 border-t border-hairline">
+                      <div className="flex-1">
+                        <div className="font-price-display text-price-display text-primary leading-none mb-1">₹{product.priceFrom.toLocaleString('en-IN')}</div>
+                        <div className="font-caption text-caption text-slate leading-tight">indicative starting price</div>
                       </div>
                       <Link 
                         href={`/mattresses/${product.slug}`}
-                        className="w-full h-10 px-5 rounded-full border border-primary text-primary font-label-nav text-label-nav font-semibold flex items-center justify-center hover:bg-primary hover:text-surface-white transition-colors"
+                        className="shrink-0 h-[42px] px-5 rounded-full bg-primary text-surface-white font-label-nav font-medium text-sm flex items-center justify-center hover:bg-navy-deep transition-colors text-center"
                       >
                         View details
                       </Link>
@@ -189,7 +189,7 @@ export default function MattressesPage() {
               We make everything to order, so we can probably build exactly what you're looking for.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <button onClick={() => setCurrentType(null)} className="h-12 px-6 rounded-lg border border-primary text-primary font-label-nav text-label-nav font-semibold flex items-center justify-center hover:bg-surface transition-colors">
+              <button onClick={() => setCurrentType(null)} className="h-12 px-6 rounded-full border border-primary text-primary font-label-nav text-label-nav font-semibold flex items-center justify-center hover:bg-surface transition-colors">
                 Clear filters
               </button>
               <a 
@@ -246,7 +246,7 @@ export default function MattressesPage() {
               </button>
               <Link 
                 href={`/compare?m=${compareSlugs.join(',')}`}
-                className="h-10 md:h-12 px-5 md:px-8 bg-primary text-surface-white rounded-lg font-label-nav font-semibold flex items-center justify-center hover:bg-navy-deep transition-colors shadow-sm"
+                className="h-10 md:h-12 px-5 md:px-8 bg-primary text-surface-white rounded-full font-label-nav font-semibold flex items-center justify-center hover:bg-navy-deep transition-colors shadow-sm"
               >
                 Compare {compareSlugs.length} {compareSlugs.length === 1 ? 'mattress' : 'mattresses'}
               </Link>

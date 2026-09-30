@@ -193,7 +193,7 @@ ${recommended.map(r => "- " + r.name).join("\n")}`;
               <button 
                 onClick={() => setStep(4)}
                 disabled={answers.concerns.length === 0}
-                className="w-full h-14 bg-primary text-surface-white font-label-nav font-semibold rounded-lg disabled:opacity-50 transition-opacity"
+                className="w-full h-14 bg-primary text-surface-white font-label-nav font-semibold rounded-full disabled:opacity-50 transition-opacity"
               >
                 Next Step
               </button>
@@ -255,13 +255,13 @@ ${recommended.map(r => "- " + r.name).join("\n")}`;
               <div className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-xl mx-auto">
                 <button 
                   onClick={handleWhatsApp}
-                  className="w-full h-14 bg-primary text-surface-white font-label-nav font-semibold rounded-lg hover:bg-navy-deep transition-colors shadow-sm"
+                  className="w-full h-14 bg-primary text-surface-white font-label-nav font-semibold rounded-full hover:bg-navy-deep transition-colors shadow-sm"
                 >
                   Get a quote on these
                 </button>
                 <button 
                   onClick={handleWhatsApp}
-                  className="w-full h-14 bg-surface-white border-2 border-primary text-primary font-label-nav font-semibold rounded-lg hover:bg-primary/5 transition-colors flex items-center justify-center gap-2"
+                  className="w-full h-14 bg-surface-white border-2 border-primary text-primary font-label-nav font-semibold rounded-full hover:bg-primary/5 transition-colors flex items-center justify-center gap-2"
                 >
                   <span className="w-2 h-2 rounded-full bg-[#DCA544]"></span>
                   Talk it through on WhatsApp

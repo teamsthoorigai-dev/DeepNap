@@ -2,6 +2,25 @@
 
 All notable changes to the Deep Nap project will be documented in this file.
 
+## [2026-09-30]
+
+### Added & Changed
+- **Website Color Palette Update:**
+  - Audited and updated color contrast, background surfaces (`bg-surface`, `bg-surface-white`), text hierarchy, and accent highlights (`#05253E`, `#F4F1ED`, `#2DB1B5`) across all major landing pages, configurators, and support cards.
+  - Refined page backgrounds for `/b2b`, `/custom-size`, `/visit`, `/quiz`, `/warranty`, `/faq`, `/compare`, and `/diwan-cots`.
+
+- **Quiz & Card UI Edits:**
+  - Standardized option cards, quiz selection UI (`/quiz`), diwan cot cards, product configurators, and support cards with consistent padding, rounded corners, borders, and active state indicators.
+  - Updated card rating badges, feature pill tags, and price summaries in `ProductRange`, `SupportCards`, `CotConfigurator`, and `ProductConfigurator`.
+
+- **Bulk Orders Card View:**
+  - Refined B2B institutional cards and bulk order banner layouts (`/b2b` and `BulkBanner`) for clear feature presentation, icon alignment, and responsive grid structures.
+
+- **Website Button Style Redesign:**
+  - Completed comprehensive button and CTA audit across all pages (`src/app/`) and components (`src/components/`).
+  - Standardized primary, secondary, and floating action CTAs to fully rounded pill buttons (`rounded-full`), ensuring consistent hover states, touch targets, and WhatsApp brand green integration (`#25D366`).
+  - Updated action buttons on `FloatingSocials`, `VisitUs`, `CustomSizeBuilder`, `CompareTable`, `CotConfigurator`, and `ProductConfigurator`.
+
 ## [2026-09-25]
 
 ### Added & Changed

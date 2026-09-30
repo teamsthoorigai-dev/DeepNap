@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { calculateIndicativePrice } from "@/actions/calculatePrice";
@@ -23,9 +23,9 @@ export default function CustomSizePage() {
         
         {/* Intro */}
         <div className="text-center pt-12 pb-8 px-8 border-b border-hairline">
-          <h1 className="font-display-lg text-display-lg text-primary tracking-tight mb-4">Tell us the size. We build it.</h1>
+          <h1 className="font-headline-md text-headline-md text-primary font-semibold mb-4">Tell us the size. We build it.</h1>
           <p className="font-body-regular text-body-regular text-slate max-w-xl mx-auto">
-            Most Indian beds are built by carpenters, so standard sizes rarely fit. We make yours to the inch, with no surcharge.
+            Most Indian beds are built by carpenters, so standard sizes rarely fit. <br className="hidden sm:block" />We make yours to the inch, with no surcharge.
           </p>
         </div>
 
@@ -98,7 +98,7 @@ export default function CustomSizePage() {
             <div>
               <span className="block font-caption text-caption text-slate uppercase tracking-wider font-semibold mb-1">Indicative Quote</span>
               <div className="flex items-end gap-3">
-                <span className="font-display-md text-display-md text-primary">₹{price.toLocaleString('en-IN')}</span>
+                <span className="font-price-display text-price-display text-primary font-semibold">₹{price.toLocaleString('en-IN')}</span>
               </div>
               <p className="font-caption text-caption text-slate mt-1 max-w-[200px]">
                 Pricing confirmed upon inquiry. Custom sizes are non-returnable.
@@ -107,7 +107,7 @@ export default function CustomSizePage() {
             
             <Link 
               href={`/quote?product=Custom+Mattress&size=${length}x${width}&thickness=${thickness}&price=${price.toLocaleString('en-IN')}`}
-              className="h-[52px] px-8 flex items-center justify-center bg-primary text-surface-white rounded-lg font-label-nav text-label-nav font-semibold hover:bg-navy-deep transition-all shadow-sm w-full md:w-auto flex-shrink-0 gap-2"
+              className="h-[52px] px-8 flex items-center justify-center bg-primary text-surface-white rounded-full font-label-nav text-label-nav font-semibold hover:bg-navy-deep transition-all shadow-sm w-full md:w-auto flex-shrink-0 gap-2"
             >
               <span className="w-2 h-2 rounded-full bg-[#DCA544]"></span>
               Send this enquiry
@@ -146,3 +146,4 @@ export default function CustomSizePage() {
     </main>
   );
 }
+

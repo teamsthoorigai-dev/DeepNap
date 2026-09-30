@@ -39,7 +39,7 @@ export const cots: DiwanCotProduct[] = [
     slug: "teak-storage-diwan",
     name: "Teak Storage Diwan",
     finish: "Teak",
-    description: "Our signature teak frame with smooth hydraulic lift storage built in.",
+    description: "Our signature teak frame with smooth hydraulic lift\nstorage built in.",
     hasStorage: true,
     priceFrom: 45000,
     leadTime: "15-20 days",

@@ -14,10 +14,10 @@ export default function SupportCards() {
               Find the right support
             </h2>
             <p className="font-body-lead text-body-lead text-slate mt-2 max-w-xl">
-              Answer four questions about how you sleep, we shortlist from 13 types.
+              Answer four questions about how you sleep, we shortlist <br className="hidden md:block" /> from 13 types.
             </p>
           </div>
-          <PrimaryButton href="/quiz" className="shrink-0 mt-1">
+          <PrimaryButton href="/quiz" className="shrink-0">
             Start the quiz
           </PrimaryButton>
         </div>
@@ -42,7 +42,7 @@ export default function SupportCards() {
               </div>
               <div>
                 <p className="font-caption text-caption text-slate uppercase font-semibold">Suited for</p>
-                <p className="font-body-regular text-body-regular text-on-surface mt-1">Side sleepers, pressure relief on shoulders and hips</p>
+                <p className="font-body-regular text-body-regular text-on-surface mt-1">Side sleepers, pressure relief on <br /> shoulders and hips</p>
               </div>
               <div>
                 <p className="font-caption text-caption text-slate uppercase font-semibold">Internal Core</p>
@@ -76,7 +76,7 @@ export default function SupportCards() {
               </div>
               <div>
                 <p className="font-caption text-caption text-slate uppercase font-semibold">Suited for</p>
-                <p className="font-body-regular text-body-regular text-on-surface mt-1">Back & combination sleepers, balanced spinal posture</p>
+                <p className="font-body-regular text-body-regular text-on-surface mt-1">Back & combination sleepers, balanced <br /> spinal posture</p>
               </div>
               <div>
                 <p className="font-caption text-caption text-slate uppercase font-semibold">Internal Core</p>
@@ -107,7 +107,7 @@ export default function SupportCards() {
               </div>
               <div>
                 <p className="font-caption text-caption text-slate uppercase font-semibold">Suited for</p>
-                <p className="font-body-regular text-body-regular text-on-surface mt-1">Stomach sleepers, firm orthopaedic spine support</p>
+                <p className="font-body-regular text-body-regular text-on-surface mt-1">Stomach sleepers, firm orthopaedic <br /> spine support</p>
               </div>
               <div>
                 <p className="font-caption text-caption text-slate uppercase font-semibold">Internal Core</p>

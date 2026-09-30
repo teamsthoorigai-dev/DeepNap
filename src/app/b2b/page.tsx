@@ -20,7 +20,7 @@ export default function B2BPage() {
             </p>
             <a 
               href="#requirement-form"
-              className="inline-flex items-center justify-center font-label-nav font-medium h-[52px] px-8 rounded-lg border-2 border-surface-white text-surface-white hover:bg-surface-white/10 transition-colors"
+              className="inline-flex items-center justify-center font-label-nav font-medium h-[52px] px-8 rounded-full border-2 border-surface-white text-surface-white hover:bg-surface-white/10 transition-colors"
             >
               Send your requirement
             </a>
@@ -85,7 +85,7 @@ export default function B2BPage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
             <div className="bg-surface-white p-8 rounded-2xl border border-hairline shadow-sm flex flex-col">
               <div className="w-14 h-14 rounded-full bg-[#EFE5D7] flex items-center justify-center text-primary text-[26px] font-semibold mb-6">1</div>
-              <h3 className="text-[26px] font-semibold text-primary mb-3">No middleman markup</h3>
+              <h3 className="text-[26px] font-semibold text-primary mb-3">No middleman <br />markup</h3>
               <p className="font-body-lead text-slate">You buy directly from the unit that cuts the foam and stitches the cover. No distributor margins, no retail overheads factored into your bulk price.</p>
             </div>
             

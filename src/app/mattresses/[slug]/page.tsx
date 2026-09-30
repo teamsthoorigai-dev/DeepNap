@@ -76,7 +76,7 @@ export default async function ProductDetailPage({
               placeholder="Enter PIN code (e.g. 641062)" 
               className="flex-1 h-12 px-4 rounded-lg border border-hairline font-label-nav focus:outline-none focus:border-primary"
             />
-            <button className="h-12 px-6 bg-primary text-surface-white font-label-nav font-semibold rounded-lg hover:bg-navy-deep transition-colors">
+            <button className="h-12 px-6 bg-primary text-surface-white font-label-nav font-semibold rounded-full hover:bg-navy-deep transition-colors">
               Check
             </button>
           </div>

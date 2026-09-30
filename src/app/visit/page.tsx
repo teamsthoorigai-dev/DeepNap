@@ -53,15 +53,15 @@ Please confirm if this time works.`;
           
           {/* LEFT: Details */}
           <div className="flex flex-col">
-            <h1 className="font-display-lg text-primary text-[40px] md:text-[52px] leading-[1.1] tracking-tight mb-8">
+            <h2 className="text-[32px] md:text-[40px] font-semibold tracking-tight text-primary mb-8 leading-tight">
               Come and visit us.
-            </h1>
+            </h2>
             
             <div className="space-y-8 mb-10">
               <div className="flex items-start gap-4">
                 <span className="material-symbols-outlined text-[28px] text-primary mt-1">location_on</span>
                 <div>
-                  <h3 className="font-title-card text-primary mb-1">Workshop & Experience Facility</h3>
+                  <h3 className="font-title-card font-bold text-primary mb-1">Workshop & Experience Facility</h3>
                   <p className="font-body-regular text-slate text-lg">
                     Irugur Road, Chinniyampalayam,<br />
                     Coimbatore, Tamil Nadu 641062
@@ -72,7 +72,7 @@ Please confirm if this time works.`;
               <div className="flex items-start gap-4">
                 <span className="material-symbols-outlined text-[28px] text-primary mt-1">schedule</span>
                 <div>
-                  <h3 className="font-title-card text-primary mb-1">Opening Hours</h3>
+                  <h3 className="font-title-card font-bold text-primary mb-1">Opening Hours</h3>
                   <p className="font-body-regular text-slate text-lg">Open until 10:00 PM, every day.</p>
                 </div>
               </div>
@@ -80,7 +80,7 @@ Please confirm if this time works.`;
               <div className="flex items-start gap-4">
                 <span className="material-symbols-outlined text-[28px] text-primary mt-1">call</span>
                 <div>
-                  <h3 className="font-title-card text-primary mb-1">Contact</h3>
+                  <h3 className="font-title-card font-bold text-primary mb-1">Contact</h3>
                   <a href="tel:9600889334" className="font-body-regular text-slate text-lg hover:text-primary transition-colors block mb-1">
                     96008 89334
                   </a>
@@ -88,14 +88,14 @@ Please confirm if this time works.`;
               </div>
             </div>
             
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 max-w-[480px]">
               <a 
                 href="https://maps.google.com/maps?daddr=Deep+Nap+Mattress,Chinniyampalayam,Coimbatore" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="w-full sm:w-auto"
+                className="w-full flex-1"
               >
-                <PrimaryButton className="w-full sm:w-auto !h-14 !rounded-full">
+                <PrimaryButton className="w-full !h-14 !rounded-full px-2">
                   <span className="material-symbols-outlined text-[20px] mr-2">directions</span>
                   Get directions
                 </PrimaryButton>
@@ -104,9 +104,9 @@ Please confirm if this time works.`;
                 href="https://wa.me/919600889334" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="w-full sm:w-auto inline-flex items-center justify-center font-label-nav font-medium h-14 px-6 !rounded-full border-[1.5px] border-primary-container text-primary-container hover:bg-primary-container hover:text-surface-white transition-colors"
+                className="w-full flex-1 inline-flex items-center justify-center font-label-nav font-medium h-14 px-2 !rounded-full border-[1.5px] border-primary-container text-primary-container hover:bg-primary-container hover:text-surface-white transition-colors"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16" className="text-[#25D366] mr-2"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c-.003 1.396.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c.003-3.625 2.952-6.57 6.577-6.57a6.59 6.59 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16" className="text-[#25D366] mr-2 shrink-0"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c-.003 1.396.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c.003-3.625 2.952-6.57 6.577-6.57a6.59 6.59 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/></svg>
                 WhatsApp
               </a>
             </div>
@@ -139,24 +139,24 @@ Please confirm if this time works.`;
       <section className="w-full py-20 lg:py-24 px-gutter md:px-gutter-tablet lg:px-gutter-desktop bg-[#F8F4ED]">
         <div className="max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 lg:gap-16">
           
-          <div className="bg-surface-white p-8 rounded-2xl border border-hairline shadow-sm">
+          <div className="bg-surface-white p-8 rounded-2xl border border-hairline shadow-sm flex flex-col">
             <h2 className="text-[32px] md:text-[40px] font-semibold tracking-tight text-primary mb-6 leading-tight">What you can do here</h2>
-            <ul className="space-y-4">
+            <ul className="flex-1 flex flex-col justify-between min-h-[250px]">
               <li className="flex items-start gap-4">
                 <span className="material-symbols-outlined text-[#DCA544] mt-0.5">check_circle</span>
-                <span className="font-body-regular text-slate">Feel every material layer (coir, latex, HR foam) in person before you buy.</span>
+                <span className="font-body-regular text-slate">Feel every material layer (coir, latex, HR foam) in person <br className="hidden md:block" />before you buy.</span>
               </li>
               <li className="flex items-start gap-4">
                 <span className="material-symbols-outlined text-[#DCA544] mt-0.5">check_circle</span>
-                <span className="font-body-regular text-slate">Watch mattresses being stitched and tape-edged on the factory floor.</span>
+                <span className="font-body-regular text-slate">Watch mattresses being stitched and tape-edged on <br className="hidden md:block" />the factory floor.</span>
               </li>
               <li className="flex items-start gap-4">
                 <span className="material-symbols-outlined text-[#DCA544] mt-0.5">check_circle</span>
-                <span className="font-body-regular text-slate">Discuss exact custom dimensions for antique or carpenter-built beds.</span>
+                <span className="font-body-regular text-slate">Discuss exact custom dimensions for antique or <br className="hidden md:block" />carpenter-built beds.</span>
               </li>
               <li className="flex items-start gap-4">
                 <span className="material-symbols-outlined text-[#DCA544] mt-0.5">check_circle</span>
-                <span className="font-body-regular text-slate">Collect standard stock sizes immediately, the same day you visit.</span>
+                <span className="font-body-regular text-slate">Collect standard stock sizes immediately, the same <br className="hidden md:block" />day you visit.</span>
               </li>
             </ul>
           </div>

@@ -50,18 +50,18 @@ export default function ProductRange() {
                   className="object-cover"
                 />
               </div>
-              <div className="p-6 space-y-3">
+              <div className="px-6 pt-6 pb-4 space-y-3">
                 <h3 className="font-title-card text-title-card text-primary font-semibold">Natural Latex Ortho</h3>
                 <p className="font-body-regular text-body-regular text-slate">100% Kerala natural latex core with breathable organic cotton cover</p>
               </div>
             </div>
-            <div className="px-6 pb-6 pt-4 border-t border-hairline flex items-center justify-between">
+            <div className="px-6 pb-4 pt-0 flex items-center justify-between">
               <div className="space-x-3 text-caption font-caption text-slate">
                 <span>Firmness <strong className="text-primary">7/10</strong></span>
-                <span>·</span>
+                <span>•</span>
                 <span>Warranty <strong className="text-primary">20 yrs</strong></span>
               </div>
-              <SecondaryButton href="/mattresses?type=Latex" className="!h-9 !px-4 !text-sm">Enquire</SecondaryButton>
+              <Link href="/mattresses?type=Latex" className="inline-flex items-center justify-center h-9 px-4 rounded-full bg-primary-container text-surface-white font-label-nav text-label-nav text-sm font-semibold border-[1.5px] border-primary-container hover:bg-transparent hover:text-primary-container transition-all">Enquire</Link>
             </div>
           </div>
 
@@ -76,18 +76,18 @@ export default function ProductRange() {
                   className="object-cover"
                 />
               </div>
-              <div className="p-6 space-y-3">
+              <div className="px-6 pt-6 pb-4 space-y-3">
                 <h3 className="font-title-card text-title-card text-primary font-semibold">Pocket Spring Comfort</h3>
                 <p className="font-body-regular text-body-regular text-slate">Zero-motion transfer encased coils with high resilience foam top</p>
               </div>
             </div>
-            <div className="px-6 pb-6 pt-4 border-t border-hairline flex items-center justify-between">
+            <div className="px-6 pb-4 pt-0 flex items-center justify-between">
               <div className="space-x-3 text-caption font-caption text-slate">
                 <span>Firmness <strong className="text-primary">6/10</strong></span>
-                <span>·</span>
+                <span>•</span>
                 <span>Warranty <strong className="text-primary">15 yrs</strong></span>
               </div>
-              <SecondaryButton href="/mattresses?type=Pocket+spring" className="!h-9 !px-4 !text-sm">Enquire</SecondaryButton>
+              <Link href="/mattresses?type=Pocket+spring" className="inline-flex items-center justify-center h-9 px-4 rounded-full bg-primary-container text-surface-white font-label-nav text-label-nav text-sm font-semibold border-[1.5px] border-primary-container hover:bg-transparent hover:text-primary-container transition-all">Enquire</Link>
             </div>
           </div>
 
@@ -102,18 +102,18 @@ export default function ProductRange() {
                   className="object-cover"
                 />
               </div>
-              <div className="p-6 space-y-3">
+              <div className="px-6 pt-6 pb-4 space-y-3">
                 <h3 className="font-title-card text-title-card text-primary font-semibold">Rubberised Coir Spine-Care</h3>
                 <p className="font-body-regular text-body-regular text-slate">High-density natural coconut coir with firm orthopaedic spine support</p>
               </div>
             </div>
-            <div className="px-6 pb-6 pt-4 border-t border-hairline flex items-center justify-between">
+            <div className="px-6 pb-4 pt-0 flex items-center justify-between">
               <div className="space-x-3 text-caption font-caption text-slate">
                 <span>Firmness <strong className="text-primary">8/10</strong></span>
-                <span>·</span>
+                <span>•</span>
                 <span>Warranty <strong className="text-primary">10 yrs</strong></span>
               </div>
-              <SecondaryButton href="/mattresses?type=Orthopaedic" className="!h-9 !px-4 !text-sm">Enquire</SecondaryButton>
+              <Link href="/mattresses?type=Orthopaedic" className="inline-flex items-center justify-center h-9 px-4 rounded-full bg-primary-container text-surface-white font-label-nav text-label-nav text-sm font-semibold border-[1.5px] border-primary-container hover:bg-transparent hover:text-primary-container transition-all">Enquire</Link>
             </div>
           </div>
 

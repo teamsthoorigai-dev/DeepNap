@@ -123,21 +123,21 @@ export default function FAQPage() {
                   href="https://wa.me/919600889334" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center font-label-nav font-medium h-12 px-6 rounded-lg bg-[#25D366] text-surface-white hover:bg-[#1EBE5A] transition-colors w-full sm:w-auto"
+                  className="inline-flex items-center justify-center font-label-nav font-medium h-12 px-6 rounded-full bg-[#25D366] text-surface-white hover:bg-[#1EBE5A] transition-colors w-full sm:w-auto"
                 >
                   <span className="material-symbols-outlined text-[18px] mr-2">chat</span>
                   WhatsApp
                 </a>
                 <a 
                   href="tel:9600889334" 
-                  className="inline-flex items-center justify-center font-label-nav font-medium h-12 px-6 rounded-lg bg-surface-white border border-hairline text-primary hover:bg-black/5 transition-colors w-full sm:w-auto"
+                  className="inline-flex items-center justify-center font-label-nav font-medium h-12 px-6 rounded-full bg-surface-white border border-hairline text-primary hover:bg-black/5 transition-colors w-full sm:w-auto"
                 >
                   <span className="material-symbols-outlined text-[18px] mr-2">call</span>
                   Call Us
                 </a>
                 <Link 
                   href="/book-consultation" 
-                  className="inline-flex items-center justify-center font-label-nav font-medium h-12 px-6 rounded-lg bg-primary text-surface-white hover:bg-primary/90 transition-colors w-full sm:w-auto"
+                  className="inline-flex items-center justify-center font-label-nav font-medium h-12 px-6 rounded-full bg-primary text-surface-white hover:bg-primary/90 transition-colors w-full sm:w-auto"
                 >
                   <span className="material-symbols-outlined text-[18px] mr-2">calendar_month</span>
                   Book Consultation

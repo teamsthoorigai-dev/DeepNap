@@ -101,7 +101,7 @@ export default function CompareTable() {
                   <div className="font-display-sm text-primary mb-4">₹{p.priceFrom.toLocaleString('en-IN')}</div>
                   <Link
                     href={`/mattresses/${p.slug}`}
-                    className="block w-full text-center py-2.5 rounded-lg border border-primary text-primary font-label-nav font-semibold hover:bg-primary hover:text-surface-white transition-colors"
+                    className="block w-full text-center py-2.5 rounded-full border border-primary text-primary font-label-nav font-semibold hover:bg-primary hover:text-surface-white transition-colors"
                   >
                     View details
                   </Link>

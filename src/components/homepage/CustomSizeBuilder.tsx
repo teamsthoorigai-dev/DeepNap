@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { calculateIndicativePrice } from "@/actions/calculatePrice";
@@ -25,13 +25,13 @@ export default function CustomSizeBuilder() {
             Tell us the size. We build it.
           </h2>
           <p className="font-body-regular text-body-regular text-on-surface-variant mt-2">
-            A quarter to half of what we make is a non-standard size. No surcharge, no waiting for stock.
+            A quarter to half of what we make is a non-standard size.<br className="hidden sm:block" /> No surcharge, no waiting for stock.
           </p>
         </div>
 
         {/* Configurator Panel */}
         <div className="bg-surface-white rounded-xl p-6 md:p-8 shadow-sm border border-hairline/60">
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-2">
             
             {/* Row 1: Dropdowns */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 items-center">
@@ -101,9 +101,9 @@ export default function CustomSizeBuilder() {
             </div>
 
             {/* Row 2: Output price display */}
-            <div className="text-center py-2 flex flex-col items-center">
+            <div className="text-center flex flex-col items-center">
               <span className="block font-caption text-caption text-slate uppercase tracking-wider font-semibold">Indicative</span>
-              <div className="font-price-display text-price-display text-primary">
+              <div className="font-price-display text-price-display text-primary leading-none mt-1">
                 ₹{price.toLocaleString('en-IN')}
               </div>
             </div>
@@ -129,3 +129,6 @@ export default function CustomSizeBuilder() {
     </section>
   );
 }
+
+
+
